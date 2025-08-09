@@ -1,0 +1,41 @@
+Item do Portfólio,Torre,Classificação,Produtos-alvo,% MRR produto-alvo,STO,Lead Product Manager,HC P&D (Time),Clientes,MRR
+YMS,Torre Embarcador,Especialista,"KMM - Flow TOS/Automação, KMM - Novo YMS (.Net), GBM - TOT, Trizy - TSM",76%,Leonardo Suarez,Gilson Neiva,47,230,"R$ 5,625.3K"
+TMS Embarcador,Torre Embarcador,Core,Multisoftware - MultiEmbarcador,99%,Luiz Augusto Malinski,Jonatas SIlva da Costa,67,136,"R$ 3,088.7K"
+DMS Atacadista/Distribuidor,Torre Embarcador,Especialista,,0%,Tiago Saad,CINTHYA CHRISTINE PEREIRA,18,780,"R$ 2,666.1K"
+Soluções de Pedágio,Torre Embarcador,Especialista,"qualp, nspedágio - Conta única, nspedágio - Integradores",100%,rodrigo.souza@nstech.com.br,"Felipe Barbosa, Rodolfo Bulati",15,350,"R$ 1,771.9K"
+Gestão de Entregas,Torre Embarcador,Especialista,"Comprovei - Comprovei Enterprise, Comprovei - Comprovei Cargo",81%,Tiago Saad,Rafael Silva,20,306,"R$ 1,105.6K"
+Roteirizador,Torre Embarcador,Especialista,"Routeasy - Routing, RoutEasy - Maestro",100%,Tiago Saad,Guilherme Afonso,23,0,R$ 921.8K
+TMS Embarcador e-commerce,Torre Embarcador,Core,Frete Rápido - Gestão de Fretes,100%,mario.rodrigues@freterapido.com.br,Ricardo Andrade,34,0,R$ 836.1K
+WMS e Gestão de Terminais,Torre Embarcador,Especialista,"WMS - Locus, KMM - Portus (GTP)",84%,Pedro Neves,,21,50,R$ 302.0K
+Super App,Torre Embarcador,Core,Trizy - Super App,100%,rodrigo.souza@nstech.com.br,"Marlon farias, Ricardo Paulo Silva dos Santos",22,0,R$ 170.5K
+Etiqueta de Frete,Torre Embarcador,Especialista,Frete Rápido - Shippon,100%,mario.rodrigues@freterapido.com.br,Ricardo Andrade,0,0,R$ 141.4K
+Hub de Agendamento,Torre Embarcador,Hub,Trizy - GPED,100%,Laíny,Rafael Tonetti,12,3,R$ 110.5K
+Torre de Controle,Torre Embarcador,Core,Multi - Torre de Controle,100%,Luiz Augusto Malinski,Silvio Evangelista Abreu,11,0,R$ 0.0K
+Hub de Oferta de Cargas,Torre Embarcador,Hub,Hub de Oferta de cargas,100%,Cesar Bortolini,Rodrigo Romanovski,2,0,R$ 0.0K
+PEF - Pagamento Eletrônico de Frete,Torre Fintech,Hub,"efrete - Pagamento Eletrônico de Frete, efrete - PEF - Licença de Integração, efrete - PEF - Credenciado",100%,Letícia Luana Braatz,João Ferreira,8,2270,R$ 922.7K
+Serviços Financeiros,Torre Fintech,Hub,"nsflow, efrete - Conta Digital PF, efrete - Conta Digital PJ",100%,Letícia Luana Braatz,Brayan Elias Diehl,3,9,R$ 34.8K
+Gestão de Combusítvel,Torre Fintech,Especialista,,100%,,,0,0,R$ 0.0K
+Softwares para Seguradoras,Torre IM,Hub,"nsseg - Averbação, nsseg - Faturamento (CITWEB), nsseg - Jornada de Cotação",82%,Jorge Rahe,"Fabíola Costa, Rafael Franz",43,46,"R$ 3,831.4K"
+Softwares para Resseguros,Torre IM,Hub,nsre,31%,Erick,Erick,8,13,R$ 408.6K
+Softwares para Corretoras,Torre IM,Hub,nscorr,100%,Jorge Rahe,Marcelo,6,16,R$ 7.3K
+TMS Transportador FTL Médio/Grande,Torre MG,Core,"New KMM, New KMM - LTL",9%,bruna.andrade@nstech.com.br,Gustavo Trudes,119,328,"R$ 5,176.6K"
+TMS Transportador FTL Agro,Torre MG,Core,Atua - Mais Frete,100%,Decio Mazzutti,Eduarda Kalinoski da Silva,24,1434,"R$ 3,146.7K"
+TMS Cabotagem,Torre MG,Core,Multisoftware - MultiCabotagem,10%,Henri Coelho,Daniel Romanzini,71,0,"R$ 1,855.3K"
+Marketplace / e-procurement,Torre MG,Especialista,KMM - nskote,100%,Alex Grigoleto,"Alex Grigoleto, Luiz Godoy",6,796,R$ 444.3K
+Jornada de Trabalho,Torre MG,Especialista,"ATSlog - ATSguiarh, ATSlog - Jornada Assistida",0%,Ednei Luís Rebonatto,Jhonatan Vaz,10,15,R$ 33.7K
+Torre de Controle PSL,Torre MG,Especialista,ATSlog - ATSsiga Smartweb,100%,bruna.andrade@nstech.com.br,Gustavo Trudes,0,0,R$ 0.0K
+TMS Passageiros Médio e Grande,Torre Mobilidade,Core,Praxio - Globus,100%,Raphael Colodrão Meier,PAULA DAMASIO,77,506,"R$ 4,681.4K"
+TMS Passageiros Micro e Pequeno,Torre Mobilidade,Core,"Praxio - Siga, Praxio - Siga Emissor, Praxio - Siga One",100%,Marcelo Henrique Moreira de Sena,Endrigo Bonifácio Gonçalves da silva,14,270,R$ 695.7K
+Gestão de Passagens Rodoviárias,Torre Mobilidade,Especialista,Praxio - Luna,100%,Leandro Froes,Alex José Rezende,14,83,R$ 424.7K
+Plataforma,Torre Plataforma,Especialista,,100%,,,2,0,R$ 0.0K
+Datalake,Torre Plataforma,Hub,,100%,,,0,0,R$ 0.0K
+TMS Transportador FTL Pequeno,Torre PME,Core,Bsoft - TMS,38%,Josmar Ruth,Jean Caçoilo,72,7375,"R$ 5,406.6K"
+TMS Transportador FTL Micro,Torre PME,Core,"Hivecloud - CTe, Hivecloud - MDFe",48%,Fabio Brasil,Aline Oliveira,23,15174,"R$ 2,712.8K"
+Armazenamento de XML e Gestão de Documentos,Torre PME,Especialista,Bsoft - nsdocs,91%,Fabricio José Beltrame,João Adolfo Scharam Semkiv,12,5779,"R$ 1,255.7K"
+ERP e Emissores para Varejo e Indústria,Torre PME,Core,Otimizy - ErpSoft Desktop,53%,Fabricio José Beltrame,Felipe Mesturini,4,1964,R$ 420.9K
+Monitoramento,Torre VGR,Especialista,"Buonny - Buonny SAT, BU VGR - Zeus, Opentech - GR, BRK - BRSystem (Gerenciamento de Risco)",90%,aurelio.lopes@buonny.com.br,Jivago Pereira Triches,60,4746,"R$ 20,387.0K"
+Cadastro,Torre VGR,Especialista,"Buonny - Buonny Check, Opentech - Cadastro , BU VGR - Cadastro Unificado, BRK - BRSystem (Cadastro), Pesquisa 4.0",100%,Thiago Azevedo,Elenara Martins,21,14572,"R$ 15,454.5K"
+Gestão e Visibilidade Logística,Torre VGR,Especialista,,0%,,Oliveira,41,652,"R$ 5,129.0K"
+Rastreamento e Telemetria,Torre VGR,Especialista,Buonny - Buonny Tech,100%,Thiago Azevedo,Oliveira,0,6,"R$ 1,304.1K"
+Prevenção de Acidentes,Torre VGR,Especialista,"Onisys - Plataforma de gestão da segurança, Onisys - Torre de Prevenção de Acidentes",77%,Thiago Azevedo,Rayala Serpa,11,37,R$ 957.6K
+Software de Gestão de Risco,Torre VGR,Core,"Trafegus - Gestão de Riscos - Web, Trafegus - Checklist, Trafegus - CAD 4.0",100%,Michel Cruz,Barbara Colombelli,19,91,R$ 853.8K

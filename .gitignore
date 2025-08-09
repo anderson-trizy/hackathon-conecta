@@ -1,0 +1,16 @@
+# Ignorar imagens da proposta do hackathon
+imagens-proposta-hackathon/
+*.png
+
+# Arquivos temporários
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Credenciais e configurações sensíveis
+.env
+.env.local
+.env.production
+*.key
+*.pem
