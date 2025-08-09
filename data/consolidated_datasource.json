@@ -1,0 +1,5533 @@
+{
+	"metadata": {
+		"created_at": "2025-08-09T17:25:24.324750",
+		"project": "hackathon-conecta",
+		"group": "Group 10",
+		"theme": "Theme 01 - Product Recommendation System",
+		"description": "Consolidated data source for nstech recommendation system",
+		"version": "1.0.0"
+	},
+	"statistics": {
+		"total_portfolio_items": 40,
+		"total_products": 130,
+		"nstech_columns": [
+			"Item do Portfólio",
+			"Torre",
+			"Classificação",
+			"Produtos-alvo",
+			"% MRR produto-alvo",
+			"STO",
+			"Lead Product Manager",
+			"HC P&D (Time)",
+			"Clientes",
+			"MRR"
+		],
+		"produtos_columns": [
+			"Torre (from Item Portfólio)",
+			"Item Portfólio",
+			"Produto/Serviço",
+			"MRR",
+			"Clientes",
+			"Classificação BCG*"
+		]
+	},
+	"data": {
+		"Items do Portfólio": [
+			{
+				"Item do Portfólio": "YMS",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "KMM - Flow TOS/Automação, KMM - Novo YMS (.Net), GBM - TOT, Trizy - TSM",
+				"% MRR produto-alvo": "76%",
+				"STO": "Leonardo Suarez",
+				"Lead Product Manager": "Gilson Neiva",
+				"HC P&D (Time)": 47,
+				"Clientes": 230,
+				"MRR": "R$ 5,625.3K",
+				"Descrição": "Software para agendamento de carga/descarga, gestão e automação de pátios",
+				"Visão": "Ser a maior e mais completa solução de movimentação de cargas LATAM",
+				"Recursos": {
+					"Faz": {
+						"Descrição": "Escopo funcional que o Item de portfólio se propõem a atender.",
+						"Escopo": [
+							{
+								"item": "Gestão de Logística Inbound (Gestão de Pedidos de Compra)",
+								"processo": "Transporte de cargas - Planejamento da Execução",
+								"tipo": "Necessidade"
+							},
+							{
+								"item": "Controle de acesso",
+								"processo": "Transporte de cargas - Gestão de pátio",
+								"tipo": "Necessidade"
+							},
+							{
+								"item": "Automação (cancela, acesso, balança, etc)",
+								"processo": "Transporte de cargas - Gestão de pátio",
+								"tipo": "Necessidade"
+							},
+							{
+								"item": "Gestão e Monitoramento de Pátio",
+								"processo": "Transporte de cargas - Gestão de pátio",
+								"tipo": "Necessidade"
+							},
+							{
+								"item": "Gestão e Monitoramento de Docas",
+								"processo": "Transporte de cargas - Gestão de pátio",
+								"tipo": "Necessidade"
+							}
+						]
+					},
+					"Faz, mas não deveria": {
+						"Descrição": "Escopo funcional que o Item de portfólio atende, mas não deveria atender.",
+						"Escopo": [
+							{
+								"item": "Agendamento de Carga/Descarga",
+								"processo": "Transporte de cargas - Gestão de pátio",
+								"tipo": "Necessidade"
+							},
+							{
+								"item": "Gestão de Janelas de Agendamento",
+								"processo": "Transporte de cargas - Gestão de pátio",
+								"tipo": "Necessidade"
+							}
+						]
+					},
+					"Não faz": {
+						"Descrição": "Escopo funcional que o Item de portfólio não atende e não atenderá no futuro. Esta seção serve para dirimir dúvidas quanto ao escopo que já foi avaliado para o produto.",
+						"Escopo": []
+					}
+				},
+				"Integrações": {
+					"Integrações Internas (Consumer)": [
+						{
+							"Item de Portfólio (Provider)": "Hub de Agendamento",
+							"Tipo": "Mesma Persona",
+							"% Escopo Concluído": "0%",
+							"One-click": true,
+							"Rating": null,
+							"# clientes ativos": null
+						},
+						{
+							"Item de Portfólio (Provider)": "Super App",
+							"Tipo": "Mesma Persona",
+							"% Escopo Concluído": "100%",
+							"One-click": true,
+							"Rating": null,
+							"# clientes ativos": null
+						}
+					],
+					"Integrações Internas (Provider)": [
+						{
+							"Item de Portfólio (Consumer)": "TMS Transportador FTL Agro",
+							"% Escopo Concluído": "0%",
+							"One-click": true,
+							"Tipo": "Cross"
+						},
+						{
+							"Item de Portfólio (Consumer)": "TMS Transportador FTL Pequeno",
+							"% Escopo Concluído": "0%",
+							"One-click": true,
+							"Tipo": "Cross"
+						},
+						{
+							"Item de Portfólio (Consumer)": "TMS Transportador FTL Médio/Grande",
+							"% Escopo Concluído": "0%",
+							"One-click": true,
+							"Tipo": "Cross"
+						}
+					]
+				}
+			},
+			{
+				"Item do Portfólio": "TMS Embarcador",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Core",
+				"Produtos-alvo": "Multisoftware - MultiEmbarcador",
+				"% MRR produto-alvo": "99%",
+				"STO": "Luiz Augusto Malinski",
+				"Lead Product Manager": "Jonatas SIlva da Costa",
+				"HC P&D (Time)": 67,
+				"Clientes": 136,
+				"MRR": "R$ 3,088.7K"
+			},
+			{
+				"Item do Portfólio": "DMS Atacadista/Distribuidor",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Especialista",
+				"Produtos-alvo": null,
+				"% MRR produto-alvo": "0%",
+				"STO": "Tiago Saad",
+				"Lead Product Manager": "CINTHYA CHRISTINE PEREIRA",
+				"HC P&D (Time)": 18,
+				"Clientes": 780,
+				"MRR": "R$ 2,666.1K"
+			},
+			{
+				"Item do Portfólio": "Soluções de Pedágio",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "qualp, nspedágio - Conta única, nspedágio - Integradores",
+				"% MRR produto-alvo": "100%",
+				"STO": "rodrigo.souza@nstech.com.br",
+				"Lead Product Manager": "Felipe Barbosa, Rodolfo Bulati",
+				"HC P&D (Time)": 15,
+				"Clientes": 350,
+				"MRR": "R$ 1,771.9K"
+			},
+			{
+				"Item do Portfólio": "Gestão de Entregas",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "Comprovei - Comprovei Enterprise, Comprovei - Comprovei Cargo",
+				"% MRR produto-alvo": "81%",
+				"STO": "Tiago Saad",
+				"Lead Product Manager": "Rafael Silva",
+				"HC P&D (Time)": 20,
+				"Clientes": 306,
+				"MRR": "R$ 1,105.6K"
+			},
+			{
+				"Item do Portfólio": "Roteirizador",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "Routeasy - Routing, RoutEasy - Maestro",
+				"% MRR produto-alvo": "100%",
+				"STO": "Tiago Saad",
+				"Lead Product Manager": "Guilherme Afonso",
+				"HC P&D (Time)": 23,
+				"Clientes": 0,
+				"MRR": "R$ 921.8K"
+			},
+			{
+				"Item do Portfólio": "TMS Embarcador e-commerce",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Core",
+				"Produtos-alvo": "Frete Rápido - Gestão de Fretes",
+				"% MRR produto-alvo": "100%",
+				"STO": "mario.rodrigues@freterapido.com.br",
+				"Lead Product Manager": "Ricardo Andrade",
+				"HC P&D (Time)": 34,
+				"Clientes": 0,
+				"MRR": "R$ 836.1K"
+			},
+			{
+				"Item do Portfólio": "WMS e Gestão de Terminais",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "WMS - Locus, KMM - Portus (GTP)",
+				"% MRR produto-alvo": "84%",
+				"STO": "Pedro Neves",
+				"Lead Product Manager": null,
+				"HC P&D (Time)": 21,
+				"Clientes": 50,
+				"MRR": "R$ 302.0K"
+			},
+			{
+				"Item do Portfólio": "Super App",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Core",
+				"Produtos-alvo": [
+					"Trizy - Super App"
+				],
+				"Produtos": [
+					"Trizy - Super App",
+					"Trizy - Fretes"
+				],
+				"% MRR produto-alvo": "100%",
+				"STO": "rodrigo.souza@nstech.com.br",
+				"Lead Product Manager": [
+					"Marlon farias",
+					"Ricardo Paulo Silva dos Santos"
+				],
+				"HC P&D (Time)": 22,
+				"Clientes": 0,
+				"MRR": "R$ 170.5K",
+				"Descrição": "",
+				"Visão": "",
+				"Recursos": {
+					"Faz": {
+						"Descrição": "Escopo funcional que o Item de portfólio se propõem a atender. ",
+						"Escopo": [
+							{
+								"Item": "Consulta de Pedágio",
+								"Processo": "Motoristas",
+								"Tipo": "Necessidade"
+							},
+							{
+								"Item": "Consulta de Status em GRs",
+								"Processo": "Motoristas",
+								"Tipo": "Necessidade"
+							},
+							{
+								"Item": "Descontos em Produtos e Serviços",
+								"Processo": "Motoristas",
+								"Tipo": "Necessidade"
+							}
+						]
+					},
+					"Faz, mas não deveria": {
+						"Descrição": "Escopo funcional que o Item de portfólio atende, mas não deveria atender.",
+						"Escopo": []
+					},
+					"Não faz": {
+						"Descrição": "Escopo funcional que o Item de portfólio não atende e não atenderá no futuro. Esta seção serve para dirimir dúvidas quanto ao escopo que já foi avaliado para o produto.",
+						"Escopo": []
+					}
+				}
+			},
+			{
+				"Item do Portfólio": "Etiqueta de Frete",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "Frete Rápido - Shippon",
+				"% MRR produto-alvo": "100%",
+				"STO": "mario.rodrigues@freterapido.com.br",
+				"Lead Product Manager": "Ricardo Andrade",
+				"HC P&D (Time)": 0,
+				"Clientes": 0,
+				"MRR": "R$ 141.4K"
+			},
+			{
+				"Item do Portfólio": "Hub de Agendamento",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Hub",
+				"Produtos-alvo": "Trizy - GPED",
+				"% MRR produto-alvo": "100%",
+				"STO": "Laíny",
+				"Lead Product Manager": "Rafael Tonetti",
+				"HC P&D (Time)": 12,
+				"Clientes": 3,
+				"MRR": "R$ 110.5K"
+			},
+			{
+				"Item do Portfólio": "Torre de Controle",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Core",
+				"Produtos-alvo": "Multi - Torre de Controle",
+				"% MRR produto-alvo": "100%",
+				"STO": "Luiz Augusto Malinski",
+				"Lead Product Manager": "Silvio Evangelista Abreu",
+				"HC P&D (Time)": 11,
+				"Clientes": 0,
+				"MRR": "R$ 0.0K"
+			},
+			{
+				"Item do Portfólio": "Hub de Oferta de Cargas",
+				"Torre": "Torre Embarcador",
+				"Classificação": "Hub",
+				"Produtos-alvo": "Hub de Oferta de cargas",
+				"% MRR produto-alvo": "100%",
+				"STO": "Cesar Bortolini",
+				"Lead Product Manager": "Rodrigo Romanovski",
+				"HC P&D (Time)": 2,
+				"Clientes": 0,
+				"MRR": "R$ 0.0K"
+			},
+			{
+				"Item do Portfólio": "PEF - Pagamento Eletrônico de Frete",
+				"Torre": "Torre Fintech",
+				"Classificação": "Hub",
+				"Produtos-alvo": "efrete - Pagamento Eletrônico de Frete, efrete - PEF - Licença de Integração, efrete - PEF - Credenciado",
+				"% MRR produto-alvo": "100%",
+				"STO": "Letícia Luana Braatz",
+				"Lead Product Manager": "João Ferreira",
+				"HC P&D (Time)": 8,
+				"Clientes": 2270,
+				"MRR": "R$ 922.7K"
+			},
+			{
+				"Item do Portfólio": "Serviços Financeiros",
+				"Torre": "Torre Fintech",
+				"Classificação": "Hub",
+				"Produtos-alvo": "nsflow, efrete - Conta Digital PF, efrete - Conta Digital PJ",
+				"% MRR produto-alvo": "100%",
+				"STO": "Letícia Luana Braatz",
+				"Lead Product Manager": "Brayan Elias Diehl",
+				"HC P&D (Time)": 3,
+				"Clientes": 9,
+				"MRR": "R$ 34.8K"
+			},
+			{
+				"Item do Portfólio": "Gestão de Combusítvel",
+				"Torre": "Torre Fintech",
+				"Classificação": "Especialista",
+				"Produtos-alvo": null,
+				"% MRR produto-alvo": "100%",
+				"STO": null,
+				"Lead Product Manager": null,
+				"HC P&D (Time)": 0,
+				"Clientes": 0,
+				"MRR": "R$ 0.0K"
+			},
+			{
+				"Item do Portfólio": "Softwares para Seguradoras",
+				"Torre": "Torre IM",
+				"Classificação": "Hub",
+				"Produtos-alvo": "nsseg - Averbação, nsseg - Faturamento (CITWEB), nsseg - Jornada de Cotação",
+				"% MRR produto-alvo": "82%",
+				"STO": "Jorge Rahe",
+				"Lead Product Manager": "Fabíola Costa, Rafael Franz",
+				"HC P&D (Time)": 43,
+				"Clientes": 46,
+				"MRR": "R$ 3,831.4K"
+			},
+			{
+				"Item do Portfólio": "Softwares para Resseguros",
+				"Torre": "Torre IM",
+				"Classificação": "Hub",
+				"Produtos-alvo": "nsre",
+				"% MRR produto-alvo": "31%",
+				"STO": "Erick",
+				"Lead Product Manager": "Erick",
+				"HC P&D (Time)": 8,
+				"Clientes": 13,
+				"MRR": "R$ 408.6K"
+			},
+			{
+				"Item do Portfólio": "Softwares para Corretoras",
+				"Torre": "Torre IM",
+				"Classificação": "Hub",
+				"Produtos-alvo": "nscorr",
+				"% MRR produto-alvo": "100%",
+				"STO": "Jorge Rahe",
+				"Lead Product Manager": "Marcelo",
+				"HC P&D (Time)": 6,
+				"Clientes": 16,
+				"MRR": "R$ 7.3K"
+			},
+			{
+				"Item do Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Torre": "Torre MG",
+				"Classificação": "Core",
+				"Produtos-alvo": "New KMM, New KMM - LTL",
+				"% MRR produto-alvo": "9%",
+				"STO": "bruna.andrade@nstech.com.br",
+				"Lead Product Manager": "Gustavo Trudes",
+				"HC P&D (Time)": 119,
+				"Clientes": 328,
+				"MRR": "R$ 5,176.6K"
+			},
+			{
+				"Item do Portfólio": "TMS Transportador FTL Agro",
+				"Torre": "Torre MG",
+				"Classificação": "Core",
+				"Produtos-alvo": "Atua - Mais Frete",
+				"% MRR produto-alvo": "100%",
+				"STO": "Decio Mazzutti",
+				"Lead Product Manager": "Eduarda Kalinoski da Silva",
+				"HC P&D (Time)": 24,
+				"Clientes": 1434,
+				"MRR": "R$ 3,146.7K"
+			},
+			{
+				"Item do Portfólio": "TMS Cabotagem",
+				"Torre": "Torre MG",
+				"Classificação": "Core",
+				"Produtos-alvo": "Multisoftware - MultiCabotagem",
+				"% MRR produto-alvo": "10%",
+				"STO": "Henri Coelho",
+				"Lead Product Manager": "Daniel Romanzini",
+				"HC P&D (Time)": 71,
+				"Clientes": 0,
+				"MRR": "R$ 1,855.3K"
+			},
+			{
+				"Item do Portfólio": "Marketplace / e-procurement",
+				"Torre": "Torre MG",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "KMM - nskote",
+				"% MRR produto-alvo": "100%",
+				"STO": "Alex Grigoleto",
+				"Lead Product Manager": "Alex Grigoleto, Luiz Godoy",
+				"HC P&D (Time)": 6,
+				"Clientes": 796,
+				"MRR": "R$ 444.3K"
+			},
+			{
+				"Item do Portfólio": "Jornada de Trabalho",
+				"Torre": "Torre MG",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "ATSlog - ATSguiarh, ATSlog - Jornada Assistida",
+				"% MRR produto-alvo": "0%",
+				"STO": "Ednei Luís Rebonatto",
+				"Lead Product Manager": "Jhonatan Vaz",
+				"HC P&D (Time)": 10,
+				"Clientes": 15,
+				"MRR": "R$ 33.7K"
+			},
+			{
+				"Item do Portfólio": "Torre de Controle PSL",
+				"Torre": "Torre MG",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "ATSlog - ATSsiga Smartweb",
+				"% MRR produto-alvo": "100%",
+				"STO": "bruna.andrade@nstech.com.br",
+				"Lead Product Manager": "Gustavo Trudes",
+				"HC P&D (Time)": 0,
+				"Clientes": 0,
+				"MRR": "R$ 0.0K"
+			},
+			{
+				"Item do Portfólio": "TMS Passageiros Médio e Grande",
+				"Torre": "Torre Mobilidade",
+				"Classificação": "Core",
+				"Produtos-alvo": "Praxio - Globus",
+				"% MRR produto-alvo": "100%",
+				"STO": "Raphael Colodrão Meier",
+				"Lead Product Manager": "PAULA DAMASIO",
+				"HC P&D (Time)": 77,
+				"Clientes": 506,
+				"MRR": "R$ 4,681.4K"
+			},
+			{
+				"Item do Portfólio": "TMS Passageiros Micro e Pequeno",
+				"Torre": "Torre Mobilidade",
+				"Classificação": "Core",
+				"Produtos-alvo": "Praxio - Siga, Praxio - Siga Emissor, Praxio - Siga One",
+				"% MRR produto-alvo": "100%",
+				"STO": "Marcelo Henrique Moreira de Sena",
+				"Lead Product Manager": "Endrigo Bonifácio Gonçalves da silva",
+				"HC P&D (Time)": 14,
+				"Clientes": 270,
+				"MRR": "R$ 695.7K"
+			},
+			{
+				"Item do Portfólio": "Gestão de Passagens Rodoviárias",
+				"Torre": "Torre Mobilidade",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "Praxio - Luna",
+				"% MRR produto-alvo": "100%",
+				"STO": "Leandro Froes",
+				"Lead Product Manager": "Alex José Rezende",
+				"HC P&D (Time)": 14,
+				"Clientes": 83,
+				"MRR": "R$ 424.7K"
+			},
+			{
+				"Item do Portfólio": "Plataforma",
+				"Torre": "Torre Plataforma",
+				"Classificação": "Especialista",
+				"Produtos-alvo": null,
+				"% MRR produto-alvo": "100%",
+				"STO": null,
+				"Lead Product Manager": null,
+				"HC P&D (Time)": 2,
+				"Clientes": 0,
+				"MRR": "R$ 0.0K"
+			},
+			{
+				"Item do Portfólio": "Datalake",
+				"Torre": "Torre Plataforma",
+				"Classificação": "Hub",
+				"Produtos-alvo": null,
+				"% MRR produto-alvo": "100%",
+				"STO": null,
+				"Lead Product Manager": null,
+				"HC P&D (Time)": 0,
+				"Clientes": 0,
+				"MRR": "R$ 0.0K"
+			},
+			{
+				"Item do Portfólio": "TMS Transportador FTL Pequeno",
+				"Torre": "Torre PME",
+				"Classificação": "Core",
+				"Produtos-alvo": "Bsoft - TMS",
+				"% MRR produto-alvo": "38%",
+				"STO": "Josmar Ruth",
+				"Lead Product Manager": "Jean Caçoilo",
+				"HC P&D (Time)": 72,
+				"Clientes": 7375,
+				"MRR": "R$ 5,406.6K"
+			},
+			{
+				"Item do Portfólio": "TMS Transportador FTL Micro",
+				"Torre": "Torre PME",
+				"Classificação": "Core",
+				"Produtos-alvo": "Hivecloud - CTe, Hivecloud - MDFe",
+				"% MRR produto-alvo": "48%",
+				"STO": "Fabio Brasil",
+				"Lead Product Manager": "Aline Oliveira",
+				"HC P&D (Time)": 23,
+				"Clientes": 15174,
+				"MRR": "R$ 2,712.8K"
+			},
+			{
+				"Item do Portfólio": "Armazenamento de XML e Gestão de Documentos",
+				"Torre": "Torre PME",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "Bsoft - nsdocs",
+				"% MRR produto-alvo": "91%",
+				"STO": "Fabricio José Beltrame",
+				"Lead Product Manager": "João Adolfo Scharam Semkiv",
+				"HC P&D (Time)": 12,
+				"Clientes": 5779,
+				"MRR": "R$ 1,255.7K"
+			},
+			{
+				"Item do Portfólio": "ERP e Emissores para Varejo e Indústria",
+				"Torre": "Torre PME",
+				"Classificação": "Core",
+				"Produtos-alvo": "Otimizy - ErpSoft Desktop",
+				"% MRR produto-alvo": "53%",
+				"STO": "Fabricio José Beltrame",
+				"Lead Product Manager": "Felipe Mesturini",
+				"HC P&D (Time)": 4,
+				"Clientes": 1964,
+				"MRR": "R$ 420.9K"
+			},
+			{
+				"Item do Portfólio": "Monitoramento",
+				"Torre": "Torre VGR",
+				"Nichos-alvo": [
+					"Transportador FTL Grande Porte"
+				],
+				"Prioridade Estratégica": "Crítica",
+				"Categoria": [
+					"Gerenciamento de Risco"
+				],
+				"Classificação": "Especialista",
+				"Produtos-alvo": [
+					"Buonny - Buonny SAT",
+					"BU VGR - Zeus",
+					"Opentech - GR",
+					"BRK - BRSystem (Gerenciamento de Risco)"
+				],
+				"Produtos": [
+					"Buonny - Buonny SAT",
+					"BU VGR - Zeus",
+					"Opentech - GR",
+					"BRK - BRSystem (Gerenciamento de Risco)",
+					"BRK - BRChecklist"
+				],
+				"% MRR produto-alvo": "90%",
+				"STO": "aurelio.lopes@buonny.com.br",
+				"Lead Product Manager": "Jivago Pereira Triches",
+				"HC P&D (Time)": 60,
+				"Clientes": 4746,
+				"MRR": "R$ 20,387.0K",
+				"Descrição": "",
+				"Visão": "Ser reconhecido como o produto que entrega a melhor experiência em inovação ,eficiência e qualidade operacional, Ser referência em disrupção. Atingir margem bruta de 50%",
+				"Recursos": {
+					"Faz": {
+						"Descrição": "Escopo funcional que o Item de portfólio se propõem a atender. ",
+						"Escopo": []
+					},
+					"Faz, mas não deveria": {
+						"Descrição": "Escopo funcional que o Item de portfólio atende, mas não deveria atender.",
+						"Escopo": []
+					},
+					"Não faz": {
+						"Descrição": "Escopo funcional que o Item de portfólio não atende e não atenderá no futuro. Esta seção serve para dirimir dúvidas quanto ao escopo que já foi avaliado para o produto.",
+						"Escopo": []
+					}
+				},
+				"Integrações": {
+					"Integrações Internas (Consumer)": [
+						{
+							"Item de Portfólio (Provider)": "Super App",
+							"Tipo": "Mesma Persona",
+							"% Escopo Concluído": "50%",
+							"One-click": true,
+							"Rating": 4,
+							"# clientes ativos": null
+						}
+					],
+					"Integrações Internas (Provider)": [
+						{
+							"Item de Portfólio (Provider)": "TMS Embarcador",
+							"% Escopo Concluído": "100%",
+							"One-click": true,
+							"Tipo": "Mesma Persona"
+						},
+						{
+							"Item de Portfólio (Provider)": "TMS Transportador FTL Pequeno",
+							"% Escopo Concluído": "100%",
+							"One-click": true,
+							"Tipo": "Mesma Persona"
+						},
+						{
+							"Item de Portfólio (Provider)": "TMS Transportador FTL Médio/Grande",
+							"% Escopo Concluído": "100%",
+							"One-click": true,
+							"Tipo": "Mesma Persona"
+						},
+						{
+							"Item de Portfólio (Provider)": "DMS Atacadista/Distribuidor",
+							"% Escopo Concluído": "100%",
+							"One-click": true,
+							"Tipo": "Mesma Persona"
+						},
+						{
+							"Item de Portfólio (Provider)": "TMS Transportador FTL Agro",
+							"% Escopo Concluído": "100%",
+							"One-click": true,
+							"Tipo": "Mesma Persona"
+						},
+						{
+							"Item de Portfólio (Provider)": "TMS Cabotagem",
+							"% Escopo Concluído": "100%",
+							"One-click": true,
+							"Tipo": "Mesma Persona"
+						}
+					]
+				}
+			},
+			{
+				"Item do Portfólio": "Cadastro",
+				"Torre": "Torre VGR",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "Buonny - Buonny Check, Opentech - Cadastro , BU VGR - Cadastro Unificado, BRK - BRSystem (Cadastro), Pesquisa 4.0",
+				"% MRR produto-alvo": "100%",
+				"STO": "Thiago Azevedo",
+				"Lead Product Manager": "Elenara Martins",
+				"HC P&D (Time)": 21,
+				"Clientes": 14572,
+				"MRR": "R$ 15,454.5K"
+			},
+			{
+				"Item do Portfólio": "Gestão e Visibilidade Logística",
+				"Torre": "Torre VGR",
+				"Classificação": "Especialista",
+				"Produtos-alvo": null,
+				"% MRR produto-alvo": "0%",
+				"STO": null,
+				"Lead Product Manager": "Oliveira",
+				"HC P&D (Time)": 41,
+				"Clientes": 652,
+				"MRR": "R$ 5,129.0K"
+			},
+			{
+				"Item do Portfólio": "Rastreamento e Telemetria",
+				"Torre": "Torre VGR",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "Buonny - Buonny Tech",
+				"% MRR produto-alvo": "100%",
+				"STO": "Thiago Azevedo",
+				"Lead Product Manager": "Oliveira",
+				"HC P&D (Time)": 0,
+				"Clientes": 6,
+				"MRR": "R$ 1,304.1K"
+			},
+			{
+				"Item do Portfólio": "Prevenção de Acidentes",
+				"Torre": "Torre VGR",
+				"Classificação": "Especialista",
+				"Produtos-alvo": "Onisys - Plataforma de gestão da segurança, Onisys - Torre de Prevenção de Acidentes",
+				"% MRR produto-alvo": "77%",
+				"STO": "Thiago Azevedo",
+				"Lead Product Manager": "Rayala Serpa",
+				"HC P&D (Time)": 11,
+				"Clientes": 37,
+				"MRR": "R$ 957.6K"
+			},
+			{
+				"Item do Portfólio": "Software de Gestão de Risco",
+				"Torre": "Torre VGR",
+				"Classificação": "Core",
+				"Produtos-alvo": "Trafegus - Gestão de Riscos - Web, Trafegus - Checklist, Trafegus - CAD 4.0",
+				"% MRR produto-alvo": "100%",
+				"STO": "Michel Cruz",
+				"Lead Product Manager": "Barbara Colombelli",
+				"HC P&D (Time)": 19,
+				"Clientes": 91,
+				"MRR": "R$ 853.8K"
+			}
+		],
+		"Produtos": [
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "DMS Atacadista/Distribuidor",
+				"Produto/Serviço": "Fusion - DMS - Gestão de Entregas",
+				"MRR": "R$ 799825.87",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "DMS Atacadista/Distribuidor",
+				"Produto/Serviço": "Fusion - DMS - Jornada de Trabalho",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "DMS Atacadista/Distribuidor",
+				"Produto/Serviço": "Fusion - DMS - Roteirizador",
+				"MRR": "R$ 1866260.35",
+				"Clientes": 780,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Etiqueta de Frete",
+				"Produto/Serviço": "Frete Rápido - Shippon",
+				"MRR": "R$ 141365.80",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Gestão de Entregas",
+				"Produto/Serviço": "Bsoft - Localiza Carga",
+				"MRR": "R$ 0.00",
+				"Clientes": 174,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Gestão de Entregas",
+				"Produto/Serviço": "Comprovei - Comprovei Cargo",
+				"MRR": "R$ 40997.60",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Gestão de Entregas",
+				"Produto/Serviço": "Comprovei - Comprovei Enterprise",
+				"MRR": "R$ 849536.73",
+				"Clientes": 91,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Gestão de Entregas",
+				"Produto/Serviço": "Datamex - Entreguei",
+				"MRR": "R$ 12463.51",
+				"Clientes": 41,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Gestão de Entregas",
+				"Produto/Serviço": "Hivecloud - AR",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Descontinuado"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Gestão de Entregas",
+				"Produto/Serviço": "RoutEasy - Gestão de Entregas",
+				"MRR": "R$ 202587.65",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Hub de Agendamento",
+				"Produto/Serviço": "Trizy - GPED",
+				"MRR": "R$ 110501.76",
+				"Clientes": 3,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Hub de Oferta de Cargas",
+				"Produto/Serviço": "Hub de Oferta de cargas",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Roteirizador",
+				"Produto/Serviço": "Multisoftware - Roteirizador",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Roteirizador",
+				"Produto/Serviço": "RoutEasy - Maestro",
+				"MRR": "R$ 111438.96",
+				"Clientes": 0,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Roteirizador",
+				"Produto/Serviço": "Routeasy - Routing",
+				"MRR": "R$ 810350.62",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Soluções de Pedágio",
+				"Produto/Serviço": "nspedágio - Conta única",
+				"MRR": "R$ 1371306.77",
+				"Clientes": 350,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Soluções de Pedágio",
+				"Produto/Serviço": "nspedágio - Integradores",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Soluções de Pedágio",
+				"Produto/Serviço": "qualp",
+				"MRR": "R$ 400607.37",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Super App",
+				"Produto/Serviço": "Trizy - Fretes",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Super App",
+				"Produto/Serviço": "Trizy - Super App",
+				"MRR": "R$ 170542.46",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "TMS Embarcador",
+				"Produto/Serviço": "Hivecloud - 3PL",
+				"MRR": "R$ 11359.40",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "TMS Embarcador",
+				"Produto/Serviço": "Multisoftware - MultiEmbarcador",
+				"MRR": "R$ 3066000.00",
+				"Clientes": 136,
+				"Classificação BCG*": "Estabilização"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "TMS Embarcador",
+				"Produto/Serviço": "Signa - e-Cargo Embarcador",
+				"MRR": "R$ 11344.86",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "TMS Embarcador e-commerce",
+				"Produto/Serviço": "Frete Rápido - Gestão de Fretes",
+				"MRR": "R$ 836130.10",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "Torre de Controle",
+				"Produto/Serviço": "Multi - Torre de Controle",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Estabilização"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "WMS e Gestão de Terminais",
+				"Produto/Serviço": "Datamex - WMS",
+				"MRR": "R$ 49269.88",
+				"Clientes": 50,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "WMS e Gestão de Terminais",
+				"Produto/Serviço": "KMM - Portus (GTP)",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "WMS e Gestão de Terminais",
+				"Produto/Serviço": "WMS - Locus",
+				"MRR": "R$ 252764.19",
+				"Clientes": 0,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "GBM - TOT",
+				"MRR": "R$ 2450000.00",
+				"Clientes": 31,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "KMM - Flow TOS/Automação",
+				"MRR": "R$ 670606.00",
+				"Clientes": 23,
+				"Classificação BCG*": "Growth",
+				"Descrição": "Ferramenta de gestão de Logística Interna, focada em controlar operações de carga e descarga nos modais Rodoviário e Ferroviário.",
+				"Principais Recursos/Funcionalidades": "*Agendamento; *Automação; *Contratos; *Controle de Acesso; *Estoque; *Gestão de Pátio; e *Recinto Alfandegado",
+				"Principais Diferenciais": "*Automação; e *Controle de Acesso",
+				"Principais Clientes": [],
+				"Site do Produto": "https://kmm.com.br/tos/",
+				"É produto-alvo?": "Sim",
+				"Estágio (Ciclo de Vida)": "Ativo comercialmente e em evolução",
+				"Perfil": "Aplicação",
+				"Tipo de aplicação": "Web & Mobile App",
+				"Arquitetura & Deployment": "On Premise",
+				"NPS": 0
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "KMM - GTM ",
+				"MRR": "R$ 68599.47",
+				"Clientes": 8,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "KMM - GUM",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "KMM - Novo YMS (.Net)",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth",
+				"Descrição": "Ferramenta para Gestão de Operação, Pátio e Integração com Hardwares",
+				"Principais Recursos/Funcionalidades": "*Agendamento; *Controle de Acesso; *Gestão de Pátio;",
+				"Principais Diferenciais": "*Agendamento; *Controle de Acesso; *Gestão de Pátio;",
+				"Principais Clientes": [],
+				"Site do Produto": "https://www.trizy.com.br/",
+				"É produto-alvo?": "Sim",
+				"Estágio (Ciclo de Vida)": "Em desenvolvimento",
+				"Perfil": "Aplicação",
+				"Tipo de aplicação": "Web & Mobile App",
+				"Arquitetura & Deployment": "Cloud-native",
+				"NPS": 0
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "KMM - Novo YMS (PHP)",
+				"MRR": "R$ 99000.00",
+				"Clientes": 2,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "KMM - Rota Certa",
+				"MRR": "R$ 51000.00",
+				"Clientes": 11,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "KMM - SAAGRA",
+				"MRR": "R$ 200000.00",
+				"Clientes": 7,
+				"Classificação BCG*": "Maduro"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "LogOne - YMS",
+				"MRR": "R$ 379000.00",
+				"Clientes": 2,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "Trizy - B3",
+				"MRR": "R$ 457000.00",
+				"Clientes": 36,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "Trizy - BID",
+				"MRR": "R$ 11746.33",
+				"Clientes": 7,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "Trizy - Cargas (Legado)",
+				"MRR": "R$ 86083.00",
+				"Clientes": 11,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "Trizy - Classificador",
+				"MRR": "R$ 0.00",
+				"Clientes": 1,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "Trizy - Novo Cargas",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Embarcador",
+				"Item Portfólio": "YMS",
+				"Produto/Serviço": "Trizy - TSM",
+				"MRR": "R$ 1152231.51",
+				"Clientes": 91,
+				"Classificação BCG*": "Growth",
+				"Descrição": "O Trizy - TSM é uma plataforma voltada para empresas do setor logístico e industrial que buscam otimizar o agendamento de cargas e descargas, proporcionando maior previsibilidade e eficiência operacional. A solução permite o controle em tempo real das operações, gestão de pátio, comunicação ágil com motoristas e clientes, além de reduzir filas, custos com estadia e tempo total de operação. Com interface intuitiva, o Trizy - TSM oferece indicadores de desempenho, notificações personalizadas e ferramentas para planejamento, controle e visibilidade de todas as etapas, agregando valor ao automatizar e simplificar a gestão logística.",
+				"Principais Recursos/Funcionalidades": "- Agendamento de carga e descarga em plataforma simples e intuitiva - Monitoramento em tempo real das operações e status das demandas - Gestão de pátio e controle de entrada de veículos - Redução do tempo de operação e do pagamento de estadia - Comunicação fácil e rápida com motoristas e clientes, incluindo notificações personalizadas - Antecipação ou reagendamento de operações com poucos cliques - Sistema de janelas dinâmicas para agendamento, com autonomia operacional - Indicadores de saúde da operação em tela única - Previsibilidade operacional e de atrasos - Controle de cotas por unidade e por transportador - Visibilidade das etapas da operação e contratos - Geolocalização do motorista e informação de proximidade - Gestão de pátio com visões configuradas por perfil de usuário e processos diferentes por planta/produto - Tela para chamada de motoristas em televisores - Painel de gestão com visão ampla da operação e previsão dos próximos períodos",
+				"Principais Diferenciais": "- Melhora significativa na satisfação dos motoristas, promovendo um ambiente mais colaborativo e eficiente - Gestão de pátio diferenciada, com visões configuradas por perfil de usuário e adaptação a processos distintos por planta ou produto - Tela dedicada para chamada de motoristas em televisores, facilitando a comunicação visual no pátio - Painel de gestão que oferece visão ampla e integrada de toda a operação, incluindo previsão dos próximos períodos - Possibilidade de fornecedores e transportadoras realizarem o agendamento e acompanhamento diretamente na plataforma, com notificações de encerramento - Indicadores de tempos e movimentos para aprimorar a eficiência operacional - Foco em automação e simplificação dos processos logísticos, agregando valor ao negócio como um todo - Integração com outras soluções da Trizy, permitindo expansão para cotação de fretes e gestão completa de viagens",
+				"Principais Clientes": [],
+				"Site do Produto": "https://www.trizy.com.br/tsm-agendamento",
+				"É produto-alvo?": "Sim",
+				"Estágio (Ciclo de Vida)": "Ativo comercialmente e em evolução",
+				"Perfil": "Aplicação",
+				"Tipo de aplicação": "Web & Mobile App",
+				"Arquitetura & Deployment": "Cloud-based",
+				"NPS": 20
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Fintech",
+				"Item Portfólio": "Gestão de Combusítvel",
+				"Produto/Serviço": "Gasola",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Fintech",
+				"Item Portfólio": "PEF - Pagamento Eletrônico de Frete",
+				"Produto/Serviço": "efrete - Pagamento Eletrônico de Frete",
+				"MRR": "R$ 240570.53",
+				"Clientes": 129,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Fintech",
+				"Item Portfólio": "PEF - Pagamento Eletrônico de Frete",
+				"Produto/Serviço": "efrete - PEF - Credenciado",
+				"MRR": "R$ 280045.42",
+				"Clientes": 968,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Fintech",
+				"Item Portfólio": "PEF - Pagamento Eletrônico de Frete",
+				"Produto/Serviço": "efrete - PEF - Licença de Integração",
+				"MRR": "R$ 402126.23",
+				"Clientes": 1173,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Fintech",
+				"Item Portfólio": "Serviços Financeiros",
+				"Produto/Serviço": "efrete - Conta Digital PF",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Fintech",
+				"Item Portfólio": "Serviços Financeiros",
+				"Produto/Serviço": "efrete - Conta Digital PJ",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Fintech",
+				"Item Portfólio": "Serviços Financeiros",
+				"Produto/Serviço": "nsflow",
+				"MRR": "R$ 34824.36",
+				"Clientes": 9,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Corretoras",
+				"Produto/Serviço": "nscorr",
+				"MRR": "R$ 7306.00",
+				"Clientes": 16,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Resseguros",
+				"Produto/Serviço": "CIR",
+				"MRR": "R$ 179725.00",
+				"Clientes": 9,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Resseguros",
+				"Produto/Serviço": "nsre",
+				"MRR": "R$ 126383.00",
+				"Clientes": 2,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Resseguros",
+				"Produto/Serviço": "SGE",
+				"MRR": "R$ 102451.00",
+				"Clientes": 2,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Seguradoras",
+				"Produto/Serviço": "nsseg - Averbação",
+				"MRR": "R$ 3112847.00",
+				"Clientes": 21,
+				"Classificação BCG*": "Maduro"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Seguradoras",
+				"Produto/Serviço": "nsseg - Avulsa",
+				"MRR": "R$ 6319.00",
+				"Clientes": 1,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Seguradoras",
+				"Produto/Serviço": "nsseg - Cotação (SSC)",
+				"MRR": "R$ 11378.00",
+				"Clientes": 2,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Seguradoras",
+				"Produto/Serviço": "nsseg - Faturamento (CIT)",
+				"MRR": "R$ 666435.00",
+				"Clientes": 20,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Seguradoras",
+				"Produto/Serviço": "nsseg - Faturamento (CITWEB)",
+				"MRR": "R$ 34429.00",
+				"Clientes": 2,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre IM",
+				"Item Portfólio": "Softwares para Seguradoras",
+				"Produto/Serviço": "nsseg - Jornada de Cotação",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "Jornada de Trabalho",
+				"Produto/Serviço": "ATSlog - ATSguard",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "Jornada de Trabalho",
+				"Produto/Serviço": "ATSlog - ATSguiarh",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "Jornada de Trabalho",
+				"Produto/Serviço": "ATSlog - ATSguiarh light web",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "Jornada de Trabalho",
+				"Produto/Serviço": "ATSlog - Jornada Assistida",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "Jornada de Trabalho",
+				"Produto/Serviço": "Trafegus - Jornada",
+				"MRR": "R$ 33736.67",
+				"Clientes": 15,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "Marketplace / e-procurement",
+				"Produto/Serviço": "KMM - nskote",
+				"MRR": "R$ 444322.45",
+				"Clientes": 796,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Cabotagem",
+				"Produto/Serviço": "Multisoftware - MultiCabotagem",
+				"MRR": "R$ 185956.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Estabilização"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Cabotagem",
+				"Produto/Serviço": "Signa - e-Cargo Cabotagem",
+				"MRR": "R$ 1669356.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Agro",
+				"Produto/Serviço": "Atua - Mais Frete",
+				"MRR": "R$ 3146674.91",
+				"Clientes": 1434,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Produto/Serviço": "Avacorp",
+				"MRR": "R$ 1077494.00",
+				"Clientes": 97,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Produto/Serviço": "Avacorp-i",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Produto/Serviço": "KMM - TMS Enterprise & Corporate",
+				"MRR": "R$ 2510221.00",
+				"Clientes": 53,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Produto/Serviço": "KMM - TMS Essentials",
+				"MRR": "R$ 236000.00",
+				"Clientes": 29,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Produto/Serviço": "New KMM",
+				"MRR": "R$ 471262.00",
+				"Clientes": 26,
+				"Classificação BCG*": "Estabilização"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Produto/Serviço": "New KMM - LTL",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Produto/Serviço": "Praxio - Globus Cargas",
+				"MRR": "R$ 715597.90",
+				"Clientes": 106,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "TMS Transportador FTL Médio/Grande",
+				"Produto/Serviço": "Signa - e-Cargo TMS",
+				"MRR": "R$ 166039.00",
+				"Clientes": 17,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "Torre de Controle PSL",
+				"Produto/Serviço": "ATSlog - ATSsiga",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre MG",
+				"Item Portfólio": "Torre de Controle PSL",
+				"Produto/Serviço": "ATSlog - ATSsiga Smartweb",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Mobilidade",
+				"Item Portfólio": "Gestão de Passagens Rodoviárias",
+				"Produto/Serviço": "Praxio - Luna",
+				"MRR": "R$ 424730.39",
+				"Clientes": 83,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Mobilidade",
+				"Item Portfólio": "TMS Passageiros Médio e Grande",
+				"Produto/Serviço": "Multisoftware - MultiBus",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Descontinuar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Mobilidade",
+				"Item Portfólio": "TMS Passageiros Médio e Grande",
+				"Produto/Serviço": "Praxio - Globus",
+				"MRR": "R$ 4681372.32",
+				"Clientes": 506,
+				"Classificação BCG*": "Maduro"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Mobilidade",
+				"Item Portfólio": "TMS Passageiros Micro e Pequeno",
+				"Produto/Serviço": "Praxio - Siga",
+				"MRR": "R$ 668307.09",
+				"Clientes": 184,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Mobilidade",
+				"Item Portfólio": "TMS Passageiros Micro e Pequeno",
+				"Produto/Serviço": "Praxio - Siga Emissor",
+				"MRR": "R$ 8427.72",
+				"Clientes": 69,
+				"Classificação BCG*": "MVP"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Mobilidade",
+				"Item Portfólio": "TMS Passageiros Micro e Pequeno",
+				"Produto/Serviço": "Praxio - Siga One",
+				"MRR": "R$ 18932.76",
+				"Clientes": 17,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre Plataforma",
+				"Item Portfólio": "Plataforma",
+				"Produto/Serviço": "Nstech - Plataforma",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "Armazenamento de XML e Gestão de Documentos",
+				"Produto/Serviço": "Bsoft - nsdocs",
+				"MRR": "R$ 1137905.85",
+				"Clientes": 4781,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "Armazenamento de XML e Gestão de Documentos",
+				"Produto/Serviço": "Datamex - Xml Protegido",
+				"MRR": "R$ 112532.80",
+				"Clientes": 904,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "Armazenamento de XML e Gestão de Documentos",
+				"Produto/Serviço": "Otimizy - Coleta XML",
+				"MRR": "R$ 5278.00",
+				"Clientes": 94,
+				"Classificação BCG*": "Descontinuado"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "ERP e Emissores para Varejo e Indústria",
+				"Produto/Serviço": "Bsoft - Controle Comercial",
+				"MRR": "R$ 34435.80",
+				"Clientes": 121,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "ERP e Emissores para Varejo e Indústria",
+				"Produto/Serviço": "Bsoft - NFe Prático",
+				"MRR": "R$ 126210.33",
+				"Clientes": 980,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "ERP e Emissores para Varejo e Indústria",
+				"Produto/Serviço": "Otimizy - ErpSoft Desktop",
+				"MRR": "R$ 223284.31",
+				"Clientes": 559,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "ERP e Emissores para Varejo e Indústria",
+				"Produto/Serviço": "Otimizy - Erpsoft One",
+				"MRR": "R$ 36963.93",
+				"Clientes": 304,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Micro",
+				"Produto/Serviço": "Atua - Mais CTe",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Micro",
+				"Produto/Serviço": "Bsoft - CTe Prático",
+				"MRR": "R$ 658038.80",
+				"Clientes": 3871,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Micro",
+				"Produto/Serviço": "Bsoft - MDFe Prático",
+				"MRR": "R$ 9408.82",
+				"Clientes": 94,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Micro",
+				"Produto/Serviço": "Datamex - Emissor Simples",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Micro",
+				"Produto/Serviço": "Hivecloud - CTe",
+				"MRR": "R$ 246407.42",
+				"Clientes": 2851,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Micro",
+				"Produto/Serviço": "Hivecloud - MDFe",
+				"MRR": "R$ 1060302.22",
+				"Clientes": 4428,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Micro",
+				"Produto/Serviço": "Multisoftware - MultiCTe",
+				"MRR": "R$ 738599.57",
+				"Clientes": 3930,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Micro",
+				"Produto/Serviço": "Otimizy - Muvly",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Descontinuado"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Pequeno",
+				"Produto/Serviço": "Bsoft - Controle de Transportadoras",
+				"MRR": "R$ 3298035.17",
+				"Clientes": 3348,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Pequeno",
+				"Produto/Serviço": "Bsoft - One",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Descontinuado"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Pequeno",
+				"Produto/Serviço": "Bsoft - TMS",
+				"MRR": "R$ 2075016.78",
+				"Clientes": 3941,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Pequeno",
+				"Produto/Serviço": "Datamex - TMS Nacional",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Descontinuado"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre PME",
+				"Item Portfólio": "TMS Transportador FTL Pequeno",
+				"Produto/Serviço": "Hivecloud - TMS",
+				"MRR": "R$ 33568.94",
+				"Clientes": 86,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Cadastro",
+				"Produto/Serviço": "BRK - BRSystem (Cadastro)",
+				"MRR": "R$ 3460574.00",
+				"Clientes": 961,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Cadastro",
+				"Produto/Serviço": "BU VGR - Cadastro Unificado",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Cadastro",
+				"Produto/Serviço": "Buonny - Buonny Check",
+				"MRR": "R$ 8875848.00",
+				"Clientes": 11145,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Cadastro",
+				"Produto/Serviço": "Opentech - Cadastro ",
+				"MRR": "R$ 3118127.00",
+				"Clientes": 2466,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Cadastro",
+				"Produto/Serviço": "Pesquisa 4.0",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Maduro"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Gestão e Visibilidade Logística",
+				"Produto/Serviço": "BRK - BRLog",
+				"MRR": "R$ 1456334.00",
+				"Clientes": 54,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Gestão e Visibilidade Logística",
+				"Produto/Serviço": "Buonny - Buonny Log",
+				"MRR": "R$ 159726.00",
+				"Clientes": 232,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Gestão e Visibilidade Logística",
+				"Produto/Serviço": "Opentech - SIL",
+				"MRR": "R$ 3512900.00",
+				"Clientes": 366,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Monitoramento",
+				"Produto/Serviço": "BRK - BRChecklist",
+				"MRR": "R$ 2095256.17",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Monitoramento",
+				"Produto/Serviço": "BRK - BRSystem (Gerenciamento de Risco)",
+				"MRR": "R$ 6615653.00",
+				"Clientes": 805,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Monitoramento",
+				"Produto/Serviço": "BU VGR - Zeus",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Monitoramento",
+				"Produto/Serviço": "Buonny - Buonny SAT",
+				"MRR": "R$ 4875967.00",
+				"Clientes": 3229,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Monitoramento",
+				"Produto/Serviço": "Opentech - GR",
+				"MRR": "R$ 6800124.00",
+				"Clientes": 712,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Prevenção de Acidentes",
+				"Produto/Serviço": "BRK - BRSipa",
+				"MRR": "R$ 91125.00",
+				"Clientes": 22,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Prevenção de Acidentes",
+				"Produto/Serviço": "Buonny - Bsafe",
+				"MRR": "R$ 51000.00",
+				"Clientes": 3,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Prevenção de Acidentes",
+				"Produto/Serviço": "Onisys - Plataforma de gestão da segurança",
+				"MRR": "R$ 610034.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Estabilização"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Prevenção de Acidentes",
+				"Produto/Serviço": "Onisys - Torre de Prevenção de Acidentes",
+				"MRR": "R$ 130000.00",
+				"Clientes": 1,
+				"Classificação BCG*": "Estabilização"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Prevenção de Acidentes",
+				"Produto/Serviço": "Opentech - PPA",
+				"MRR": "R$ 75447.00",
+				"Clientes": 11,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Rastreamento e Telemetria",
+				"Produto/Serviço": "Buonny - Buonny Tech",
+				"MRR": "R$ 1304082.00",
+				"Clientes": 6,
+				"Classificação BCG*": "Dúvida"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Software de Gestão de Risco",
+				"Produto/Serviço": "BU VGR - Rastrear",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Software de Gestão de Risco",
+				"Produto/Serviço": "Trafegus - CAD 4.0",
+				"MRR": "R$ 59274.00",
+				"Clientes": 7,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Software de Gestão de Risco",
+				"Produto/Serviço": "Trafegus - Checklist",
+				"MRR": "R$ 24634.14",
+				"Clientes": 5,
+				"Classificação BCG*": "Growth"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Software de Gestão de Risco",
+				"Produto/Serviço": "Trafegus - Gestão de Riscos - Delphi",
+				"MRR": "R$ 0.00",
+				"Clientes": 0,
+				"Classificação BCG*": "Migrar"
+			},
+			{
+				"Torre (from Item Portfólio)": "Torre VGR",
+				"Item Portfólio": "Software de Gestão de Risco",
+				"Produto/Serviço": "Trafegus - Gestão de Riscos - Web",
+				"MRR": "R$ 769870.20",
+				"Clientes": 79,
+				"Classificação BCG*": "Growth"
+			}
+		],
+		"Setor / Mercado": [
+			{
+				"Setor / Mercado": "Embarcador / Transporte de Carga Própria",
+				"Observações": "Indústria, varejo, distribuição e outros mercados com necessidade de transporte de cargas, seja através de transportadores terceirizados ou ativos próprios.",
+				"# Empresas": 50000,
+				"R$ ARR": "R$ 54,000,000",
+				"Nichos": [
+					{
+						"Perfil": "Varejo / Distribuidor",
+						"Descrição": "-",
+						"Qualificação": "-"
+					},
+					{
+						"Perfil": "Agronegócio",
+						"Descrição": "-",
+						"Qualificação": "-"
+					},
+					{
+						"Perfil": "Indústria",
+						"Descrição": "-",
+						"Qualificação": "-"
+					},
+					{
+						"Perfil": "Embarcadores Micro",
+						"Descrição": "- Micro e pequenas empresas que fazem o transporte de sua carga própria como postos de combustível, empresas de móveis, pequenas indústrias, etc. - Precisam cumprir a regulamentação fiscal para transporte de carga própria - Não possui ERP/Solução gerencial ou solução não suporte emissão de documentos do transporte",
+						"Qualificação": "-"
+					}
+				]
+			}
+		],
+		"Nichos": [
+			{
+				"Nicho": "Agronegócio",
+				"Setor / Mercado": "Embarcador / Transporte de Carga Própria",
+				"Descrição": "",
+				"Qualificação": "",
+				"Empresas Modelo": [],
+				"Responsável (Negócio)": "Thiago casagrande cardoso",
+				"Responsável (Produto)": "Gustavo Holzhausen",
+				"Item Portfólio": [
+					"TMS Embarcador",
+					"YMS"
+				]
+			},
+			{
+				"Nicho": "Varejo / Distribuidor",
+				"Setor / Mercado": "Embarcador / Transporte de Carga Própria",
+				"Descrição": "",
+				"Qualificação": "",
+				"Empresas Modelo": [],
+				"Responsável (Negócio)": "Tiago Saad",
+				"Responsável (Produto)": "Gustavo Holzhausen",
+				"Item Portfólio": [
+					"TMS Embarcador",
+					"WMS e Gestão de Terminais",
+					"DMS Atacadista/Distribuidor"
+				]
+			},
+			{
+				"Nicho": "Indústria",
+				"Setor / Mercado": "Embarcador / Transporte de Carga Própria",
+				"Descrição": "",
+				"Qualificação": "",
+				"Empresas Modelo": [],
+				"Responsável (Negócio)": "Rafael Martins Silva",
+				"Responsável (Produto)": "Gustavo Holzhausen",
+				"Item Portfólio": [
+					"TMS Embarcador",
+					"Roteirizador",
+					"Gestão de Entregas",
+					"WMS e Gestão de Terminais",
+					"Hub de Agendamento"
+				]
+			},
+			{
+				"Nicho": "Embarcadores Micro",
+				"Setor / Mercado": "Embarcador / Transporte de Carga Própria",
+				"Descrição": "- Micro e pequenas empresas que fazem o transporte de sua carga própria como postos de combustível, empresas de móveis, pequenas indústrias, etc. - Precisam cumprir a regulamentação fiscal para transporte de carga própria - Não possui ERP/Solução gerencial ou solução não suporte emissão de documentos do transporte",
+				"Qualificação": "",
+				"Empresas Modelo": [],
+				"Responsável (Negócio)": "Fabio Brasil",
+				"Responsável (Produto)": "ALEX S O DE MORAES",
+				"Item Portfólio": [
+					"TMS Transportador FTL Micro"
+				]
+			}
+		],
+		"Recursos": [
+			{
+				"Nome": "Gestão de Logística Inbound (Gestão de Pedidos de Compra)",
+				"Descrição": "Gestão de pedidos de compra, controle de recebimento e movimentação de cargas inbound.",
+				"Processo": "Transporte de cargas - Planejamento da Execução",
+				"Tipo": "Necessidade",
+				"Faz": [
+					"YMS",
+					"Software de Gestão de Risco"
+				],
+				"Não deveria fazer": [
+					"TMS Embarcador"
+				],
+				"Deveria fazer": [],
+				"Não fazer": [],
+				"Mercados": [
+					"Embarcador / Transporte de Carga Própria"
+				],
+				"Nichos": [
+					"Indústria"
+				],
+				"Rating": {
+					"Embarcador": 4,
+					"Transportador": 4
+				}
+			},
+			{
+				"Nome": "Controle de acesso",
+				"Descrição": "Controle de acesso de veículos e pessoas em áreas de pátio/logística.",
+				"Processo": "Transporte de cargas - Gestão de pátio",
+				"Tipo": "Necessidade",
+				"Faz": [
+					"YMS",
+					"Software de Gestão de Risco"
+				],
+				"Não deveria fazer": [],
+				"Deveria fazer": [],
+				"Não fazer": [],
+				"Mercados": [
+					"Embarcador / Transporte de Carga Própria",
+					"Transporte Rodoviário de Cargas"
+				],
+				"Nichos": [],
+				"Rating": {
+					"Embarcador": 4,
+					"Transportador": 4
+				}
+			},
+			{
+				"Nome": "Automação (cancela, acesso, balança, etc)",
+				"Descrição": "Automação de processos de pátio, incluindo controle de cancela, acesso, balança, entre outros.",
+				"Processo": "Transporte de cargas - Gestão de pátio",
+				"Tipo": "Necessidade",
+				"Faz": [
+					"YMS"
+				],
+				"Não deveria fazer": [],
+				"Deveria fazer": [],
+				"Não fazer": [
+					"Prevenção de Acidentes"
+				],
+				"Mercados": [
+					"Embarcador / Transporte de Carga Própria",
+					"Transporte Rodoviário de Cargas"
+				],
+				"Nichos": [],
+				"Rating": {
+					"Embarcador": 5,
+					"Transportador": 5
+				}
+			},
+			{
+				"Nome": "Gestão e Monitoramento de Pátio",
+				"Descrição": "Gestão e monitoramento de pátios logísticos, controle de movimentação e permanência de veículos.",
+				"Processo": "Transporte de cargas - Gestão de pátio",
+				"Tipo": "Necessidade",
+				"Faz": [
+					"YMS",
+					"Software de Gestão de Risco"
+				],
+				"Não deveria fazer": [],
+				"Deveria fazer": [],
+				"Não fazer": [
+					"Prevenção de Acidentes"
+				],
+				"Mercados": [
+					"Embarcador / Transporte de Carga Própria",
+					"Transporte Rodoviário de Cargas"
+				],
+				"Nichos": [],
+				"Rating": {
+					"Embarcador": 4,
+					"Transportador": 4
+				}
+			},
+			{
+				"Nome": "Gestão e Monitoramento de Docas",
+				"Descrição": "Gestão e monitoramento de docas logísticas, controle de movimentação e permanência de veículos nas docas.",
+				"Processo": "Transporte de cargas - Gestão de pátio",
+				"Tipo": "Necessidade",
+				"Faz": [
+					"YMS"
+				],
+				"Não deveria fazer": [
+					"TMS Embarcador"
+				],
+				"Deveria fazer": [],
+				"Não faz": [
+					"Prevenção de Acidentes"
+				],
+				"Mercados": [
+					"Embarcador / Transporte de Carga Própria",
+					"Transporte Rodoviário de Cargas"
+				],
+				"Nichos": [],
+				"Rating": {
+					"Embarcador": 4,
+					"Transportador": 3
+				}
+			},
+			{
+				"Nome": "Consulta de Pedágio",
+				"Descrição": "",
+				"Processo": "Motoristas",
+				"Tipo": "Necessidade",
+				"Faz": [
+					"Super App",
+					"Software de Gestão de Risco"
+				],
+				"Não deveria fazer": [],
+				"Deveria fazer": [],
+				"Não fazer": [],
+				"Mercados": [
+					"Motoristas e Autônomos"
+				],
+				"Nichos": [],
+				"Rating": {
+					"Embarcador": 4,
+					"Transportador": 4
+				}
+			},
+			{
+				"Nome": "Consulta de Status em GRs",
+				"Descrição": "",
+				"Processo": "Motoristas",
+				"Tipo": "Necessidade",
+				"Faz": [
+					"Super App",
+					"Software de Gestão de Risco",
+					"Cadastro"
+				],
+				"Não deveria fazer": [
+					"TMS Transportador FTL Médio/Grande"
+				],
+				"Deveria fazer": [],
+				"Não fazer": [],
+				"Mercados": [
+					"Motoristas e Autônomos"
+				],
+				"Nichos": [],
+				"Rating": {
+					"Embarcador": 4,
+					"Transportador": 4
+				}
+			},
+			{
+				"Nome": "Descontos em Produtos e Serviços",
+				"Descrição": "",
+				"Processo": "Motoristas",
+				"Tipo": "Necessidade",
+				"Faz": [
+					"Super App"
+				],
+				"Não deveria fazer": [],
+				"Deveria fazer": [],
+				"Não fazer": [],
+				"Mercados": [
+					"Motoristas e Autônomos"
+				],
+				"Nichos": [],
+				"Rating": {
+					"Embarcador": 2,
+					"Transportador": 2
+				}
+			}
+		],
+		"Clientes": [
+			{
+				"id": "CLI001",
+				"nome": "JBS S.A.",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - Rota Certa",
+					"Hivecloud - 3PL",
+					"Multisoftware - MultiEmbarcador",
+					"Signa - e-Cargo Embarcador",
+					"Comprovei - Comprovei Enterprise",
+					"Hivecloud - AR"
+				],
+				"mrr": 45000,
+				"tempo_cliente": 36,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI002",
+				"nome": "Transportes ABC Ltda",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Médio",
+				"produtos": [
+					"Avacorp-i",
+					"New KMM - LTL",
+					"KMM - TMS Enterprise & Corporate",
+					"BRK - BRChecklist",
+					"Opentech - GR"
+				],
+				"mrr": 8500,
+				"tempo_cliente": 24,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI003",
+				"nome": "Distribuição Sul",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo/Distribuição",
+				"porte": "Médio",
+				"produtos": [
+					"Fusion - DMS - Roteirizador",
+					"Fusion - DMS - Jornada de Trabalho",
+					"Routeasy - Routing",
+					"Hivecloud - AR",
+					"Comprovei - Comprovei Cargo",
+					"Comprovei - Comprovei Enterprise"
+				],
+				"mrr": 12000,
+				"tempo_cliente": 18,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI004",
+				"nome": "Via Expressa Transportes",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Pequeno",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Bsoft - One",
+					"Bsoft - TMS",
+					"Bsoft - nsdocs"
+				],
+				"mrr": 2800,
+				"tempo_cliente": 42,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI005",
+				"nome": "Unilever Brasil",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Indústria",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - Rota Certa",
+					"Hivecloud - 3PL",
+					"Multisoftware - MultiEmbarcador",
+					"Datamex - WMS",
+					"WMS - Locus",
+					"KMM - Portus (GTP)",
+					"nspedágio - Integradores"
+				],
+				"mrr": 65000,
+				"tempo_cliente": 60,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI006",
+				"nome": "Seguradora XYZ",
+				"persona": "Segurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Grande",
+				"produtos": [
+					"nsseg - Cotação (SSC)",
+					"Opentech - Cadastro "
+				],
+				"mrr": 25000,
+				"tempo_cliente": 48,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI007",
+				"nome": "Micro Frete MEI",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Micro",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Otimizy - Muvly"
+				],
+				"mrr": 350,
+				"tempo_cliente": 12,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI008",
+				"nome": "Viação São Paulo",
+				"persona": "Transportador",
+				"torre": "Torre Mobilidade",
+				"setor": "Transporte de Passageiros",
+				"porte": "Grande",
+				"produtos": [
+					"Praxio - Globus",
+					"Praxio - Luna"
+				],
+				"mrr": 25000,
+				"tempo_cliente": 36,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI009",
+				"nome": "E-commerce Fashion",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "E-commerce",
+				"porte": "Médio",
+				"produtos": [
+					"Frete Rápido - Gestão de Fretes",
+					"Frete Rápido - Shippon",
+					"Comprovei - Comprovei Enterprise"
+				],
+				"mrr": 9500,
+				"tempo_cliente": 15,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI010",
+				"nome": "Transporte Agro SC",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Agronegócio",
+				"porte": "Médio",
+				"produtos": [
+					"Atua - Mais Frete",
+					"BU VGR - Zeus",
+					"BU VGR - Rastrear",
+					"Trafegus - Gestão de Riscos - Web"
+				],
+				"mrr": 15000,
+				"tempo_cliente": 30,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI011",
+				"nome": "Petrobras Distribuidora",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Combustíveis",
+				"porte": "Grande",
+				"produtos": [
+					"Trizy - B3",
+					"GBM - TOT",
+					"KMM - SAAGRA",
+					"Signa - e-Cargo Embarcador",
+					"Hivecloud - AR",
+					"Comprovei - Comprovei Enterprise",
+					"Comprovei - Comprovei Cargo",
+					"BU VGR - Zeus"
+				],
+				"mrr": 85000,
+				"tempo_cliente": 72,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI012",
+				"nome": "Correios",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Logística",
+				"porte": "Grande",
+				"produtos": [
+					"Multisoftware - Roteirizador",
+					"RoutEasy - Maestro",
+					"Bsoft - Localiza Carga",
+					"Frete Rápido - Shippon"
+				],
+				"mrr": 55000,
+				"tempo_cliente": 48,
+				"satisfacao": 3.7
+			},
+			{
+				"id": "CLI013",
+				"nome": "Rodoviária Intercity",
+				"persona": "Transportador",
+				"torre": "Torre Mobilidade",
+				"setor": "Transporte de Passageiros",
+				"porte": "Médio",
+				"produtos": [
+					"Praxio - Siga Emissor"
+				],
+				"mrr": 8000,
+				"tempo_cliente": 24,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI014",
+				"nome": "Ambev",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Bebidas",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - GTM ",
+					"Signa - e-Cargo Embarcador",
+					"Hivecloud - 3PL",
+					"Fusion - DMS - Gestão de Entregas",
+					"qualp"
+				],
+				"mrr": 72000,
+				"tempo_cliente": 84,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI015",
+				"nome": "Transportadora Regional",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - Controle de Transportadoras",
+					"BRK - BRChecklist",
+					"Buonny - Buonny SAT",
+					"Opentech - GR"
+				],
+				"mrr": 3200,
+				"tempo_cliente": 18,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI016",
+				"nome": "Magazine Luiza",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "E-commerce",
+				"porte": "Grande",
+				"produtos": [
+					"Frete Rápido - Gestão de Fretes",
+					"RoutEasy - Maestro",
+					"Routeasy - Routing",
+					"Datamex - Entreguei",
+					"Comprovei - Comprovei Enterprise",
+					"Comprovei - Comprovei Cargo",
+					"Trizy - GPED"
+				],
+				"mrr": 48000,
+				"tempo_cliente": 36,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI017",
+				"nome": "Bradesco Seguros",
+				"persona": "Segurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Grande",
+				"produtos": [
+					"nsseg - Faturamento (CIT)",
+					"SGE",
+					"nsre",
+					"CIR"
+				],
+				"mrr": 32000,
+				"tempo_cliente": 60,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI018",
+				"nome": "Frete Rápido MEI",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Micro",
+				"produtos": [
+					"Datamex - Emissor Simples",
+					"Bsoft - nsdocs"
+				],
+				"mrr": 420,
+				"tempo_cliente": 8,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI019",
+				"nome": "Sadia",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - Rota Certa",
+					"Datamex - WMS",
+					"Bsoft - Localiza Carga"
+				],
+				"mrr": 38000,
+				"tempo_cliente": 42,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI020",
+				"nome": "Transportes Santos",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Marítimo",
+				"porte": "Grande",
+				"produtos": [
+					"Signa - e-Cargo Cabotagem",
+					"Opentech - GR",
+					"BU VGR - Zeus",
+					"BRK - BRSystem (Gerenciamento de Risco)",
+					"Trafegus - CAD 4.0"
+				],
+				"mrr": 28000,
+				"tempo_cliente": 54,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI021",
+				"nome": "Corretora Seguros ABC",
+				"persona": "Corretor",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Pequeno",
+				"produtos": [
+					"nscorr"
+				],
+				"mrr": 1200,
+				"tempo_cliente": 15,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI022",
+				"nome": "Mercado Livre",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "E-commerce",
+				"porte": "Grande",
+				"produtos": [
+					"Frete Rápido - Gestão de Fretes",
+					"Frete Rápido - Shippon",
+					"Trizy - GPED"
+				],
+				"mrr": 62000,
+				"tempo_cliente": 30,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI023",
+				"nome": "Padaria Central",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 280,
+				"tempo_cliente": 6,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI024",
+				"nome": "Cargill",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - GUM",
+					"KMM - Novo YMS (.Net)",
+					"Hivecloud - 3PL",
+					"nspedágio - Conta única",
+					"qualp",
+					"nspedágio - Integradores",
+					"Trafegus - Checklist"
+				],
+				"mrr": 95000,
+				"tempo_cliente": 96,
+				"satisfacao": 4.6
+			},
+			{
+				"id": "CLI025",
+				"nome": "Expresso São Miguel",
+				"persona": "Transportador",
+				"torre": "Torre Mobilidade",
+				"setor": "Transporte de Passageiros",
+				"porte": "Pequeno",
+				"produtos": [
+					"Praxio - Siga One",
+					"Praxio - Luna"
+				],
+				"mrr": 2800,
+				"tempo_cliente": 20,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI026",
+				"nome": "Americanas S.A.",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"Fusion - DMS - Jornada de Trabalho",
+					"Fusion - DMS - Gestão de Entregas",
+					"Fusion - DMS - Roteirizador",
+					"RoutEasy - Maestro",
+					"Comprovei - Comprovei Enterprise",
+					"Comprovei - Comprovei Cargo"
+				],
+				"mrr": 42000,
+				"tempo_cliente": 48,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI027",
+				"nome": "Logística Express MEI",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Micro",
+				"produtos": [
+					"Otimizy - Muvly",
+					"Bsoft - CTe Prático",
+					"Hivecloud - CTe"
+				],
+				"mrr": 320,
+				"tempo_cliente": 4,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI028",
+				"nome": "BRF S.A.",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - SAAGRA",
+					"Multisoftware - MultiEmbarcador",
+					"Datamex - WMS",
+					"KMM - Portus (GTP)"
+				],
+				"mrr": 58000,
+				"tempo_cliente": 66,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI029",
+				"nome": "Vale S.A.",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Mineração",
+				"porte": "Grande",
+				"produtos": [
+					"Trizy - Cargas (Legado)",
+					"KMM - SAAGRA",
+					"Multisoftware - MultiEmbarcador",
+					"Hivecloud - 3PL",
+					"BU VGR - Zeus",
+					"Buonny - Buonny SAT",
+					"BRK - BRChecklist",
+					"BU VGR - Rastrear"
+				],
+				"mrr": 120000,
+				"tempo_cliente": 108,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI030",
+				"nome": "Transportes Nordeste",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Médio",
+				"produtos": [
+					"Avacorp-i",
+					"Praxio - Globus Cargas",
+					"Buonny - Buonny SAT"
+				],
+				"mrr": 9800,
+				"tempo_cliente": 32,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI031",
+				"nome": "Porto Seguro",
+				"persona": "Segurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Grande",
+				"produtos": [
+					"nsseg - Avulsa",
+					"nsseg - Faturamento (CIT)",
+					"nsseg - Cotação (SSC)",
+					"Opentech - Cadastro "
+				],
+				"mrr": 28000,
+				"tempo_cliente": 54,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI032",
+				"nome": "Farmácia Popular",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Farmácia",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - Controle Comercial",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Localiza Carga",
+					"Comprovei - Comprovei Enterprise"
+				],
+				"mrr": 1800,
+				"tempo_cliente": 12,
+				"satisfacao": 3.7
+			},
+			{
+				"id": "CLI033",
+				"nome": "Casas Bahia",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"Frete Rápido - Gestão de Fretes",
+					"RoutEasy - Maestro",
+					"Multisoftware - Roteirizador",
+					"Routeasy - Routing",
+					"Datamex - Entreguei"
+				],
+				"mrr": 35000,
+				"tempo_cliente": 42,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI034",
+				"nome": "Azul Linhas Aéreas",
+				"persona": "Transportador",
+				"torre": "Torre Mobilidade",
+				"setor": "Transporte Aéreo",
+				"porte": "Grande",
+				"produtos": [
+					"Buonny - Buonny Log",
+					"BRK - BRLog",
+					"Opentech - SIL",
+					"BRK - BRChecklist",
+					"BU VGR - Zeus"
+				],
+				"mrr": 25000,
+				"tempo_cliente": 36,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI035",
+				"nome": "Carrefour Brasil",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"Fusion - DMS - Gestão de Entregas",
+					"Fusion - DMS - Jornada de Trabalho",
+					"Fusion - DMS - Roteirizador",
+					"Trizy - B3",
+					"Trizy - BID",
+					"KMM - Rota Certa",
+					"Bsoft - Localiza Carga"
+				],
+				"mrr": 68000,
+				"tempo_cliente": 78,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI036",
+				"nome": "Transportadora Rio",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Pequeno",
+				"produtos": [
+					"Hivecloud - TMS",
+					"Bsoft - nsdocs"
+				],
+				"mrr": 2400,
+				"tempo_cliente": 24,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI037",
+				"nome": "Suzano Papel",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Papel e Celulose",
+				"porte": "Grande",
+				"produtos": [
+					"Trizy - Classificador",
+					"KMM - GTM ",
+					"Hivecloud - 3PL",
+					"Signa - e-Cargo Embarcador",
+					"qualp",
+					"nspedágio - Conta única",
+					"nspedágio - Integradores"
+				],
+				"mrr": 48000,
+				"tempo_cliente": 60,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI038",
+				"nome": "Resseguradora BR",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Resseguros",
+				"porte": "Médio",
+				"produtos": [
+					"CIR",
+					"nsre"
+				],
+				"mrr": 8500,
+				"tempo_cliente": 30,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI039",
+				"nome": "Natura",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Cosméticos",
+				"porte": "Grande",
+				"produtos": [
+					"Hivecloud - 3PL",
+					"Multisoftware - MultiEmbarcador",
+					"RoutEasy - Maestro",
+					"Comprovei - Comprovei Enterprise",
+					"Hivecloud - AR"
+				],
+				"mrr": 32000,
+				"tempo_cliente": 48,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI040",
+				"nome": "Autônomo João",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Micro",
+				"produtos": [
+					"Multisoftware - MultiCTe",
+					"Atua - Mais CTe"
+				],
+				"mrr": 280,
+				"tempo_cliente": 6,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI041",
+				"nome": "Riachuelo",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Moda",
+				"porte": "Grande",
+				"produtos": [
+					"Fusion - DMS - Jornada de Trabalho",
+					"Comprovei - Comprovei Enterprise",
+					"Hivecloud - AR",
+					"RoutEasy - Gestão de Entregas"
+				],
+				"mrr": 28000,
+				"tempo_cliente": 36,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI042",
+				"nome": "Viação Cometa",
+				"persona": "Transportador",
+				"torre": "Torre Mobilidade",
+				"setor": "Transporte de Passageiros",
+				"porte": "Grande",
+				"produtos": [
+					"Praxio - Globus",
+					"Multisoftware - MultiBus",
+					"Praxio - Luna"
+				],
+				"mrr": 25000,
+				"tempo_cliente": 42,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI043",
+				"nome": "Cooperativa Agro Sul",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Médio",
+				"produtos": [
+					"Trizy - Classificador",
+					"KMM - GUM",
+					"Datamex - Entreguei",
+					"RoutEasy - Gestão de Entregas",
+					"Comprovei - Comprovei Enterprise"
+				],
+				"mrr": 12000,
+				"tempo_cliente": 28,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI044",
+				"nome": "CSN - Companhia Siderúrgica",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Siderurgia",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - Novo YMS (PHP)",
+					"Multisoftware - MultiEmbarcador",
+					"Hivecloud - 3PL",
+					"Signa - e-Cargo Embarcador",
+					"Datamex - WMS"
+				],
+				"mrr": 75000,
+				"tempo_cliente": 84,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI045",
+				"nome": "Transportes Mineiros",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Médio",
+				"produtos": [
+					"Signa - e-Cargo TMS",
+					"Opentech - SIL"
+				],
+				"mrr": 11000,
+				"tempo_cliente": 38,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI046",
+				"nome": "Allianz Seguros",
+				"persona": "Segurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Grande",
+				"produtos": [
+					"nsseg - Faturamento (CITWEB)",
+					"nsseg - Averbação",
+					"nsseg - Faturamento (CIT)",
+					"nsre",
+					"CIR",
+					"SGE"
+				],
+				"mrr": 35000,
+				"tempo_cliente": 66,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI047",
+				"nome": "Loja do Mecânico",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Autopeças",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Otimizy - Erpsoft One",
+					"Otimizy - ErpSoft Desktop"
+				],
+				"mrr": 950,
+				"tempo_cliente": 18,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI048",
+				"nome": "Gol Linhas Aéreas",
+				"persona": "Transportador",
+				"torre": "Torre Mobilidade",
+				"setor": "Transporte Aéreo",
+				"porte": "Grande",
+				"produtos": [
+					"Buonny - Buonny Log",
+					"Buonny - Buonny Tech"
+				],
+				"mrr": 28000,
+				"tempo_cliente": 48,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI049",
+				"nome": "Ultrapar",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Combustíveis",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - Flow TOS/Automação",
+					"Trizy - BID",
+					"Hivecloud - 3PL",
+					"Signa - e-Cargo Embarcador",
+					"Multisoftware - MultiEmbarcador",
+					"Datamex - Entreguei",
+					"Comprovei - Comprovei Enterprise",
+					"Hivecloud - AR",
+					"nspedágio - Integradores",
+					"nspedágio - Conta única",
+					"qualp"
+				],
+				"mrr": 92000,
+				"tempo_cliente": 96,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI050",
+				"nome": "Frete Fácil MEI",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Micro",
+				"produtos": [
+					"Atua - Mais CTe",
+					"Hivecloud - CTe",
+					"Bsoft - nsdocs"
+				],
+				"mrr": 380,
+				"tempo_cliente": 10,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI051",
+				"nome": "Distribuidora Premium",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Autopeças",
+				"porte": "Grande",
+				"produtos": [
+					"Bsoft - Localiza Carga",
+					"nspedágio - Conta única"
+				],
+				"mrr": 140330,
+				"tempo_cliente": 6,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI052",
+				"nome": "Construção Cerrado MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Micro",
+				"produtos": [
+					"Otimizy - Coleta XML",
+					"Datamex - Xml Protegido",
+					"Otimizy - Erpsoft One"
+				],
+				"mrr": 379,
+				"tempo_cliente": 20,
+				"satisfacao": 3.0
+			},
+			{
+				"id": "CLI053",
+				"nome": "Online Amazônia",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "E-commerce",
+				"porte": "Médio",
+				"produtos": [
+					"Fusion - DMS - Jornada de Trabalho",
+					"Trizy - GPED",
+					"Routeasy - Routing"
+				],
+				"mrr": 15774,
+				"tempo_cliente": 49,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI054",
+				"nome": "Construção Veloz MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Micro",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Hivecloud - CTe",
+					"Multisoftware - MultiCTe",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 779,
+				"tempo_cliente": 47,
+				"satisfacao": 3.0
+			},
+			{
+				"id": "CLI055",
+				"nome": "Indústria Amazônia",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Grande",
+				"produtos": [
+					"Fusion - DMS - Jornada de Trabalho",
+					"nspedágio - Integradores",
+					"Trizy - GPED",
+					"KMM - Rota Certa"
+				],
+				"mrr": 82829,
+				"tempo_cliente": 108,
+				"satisfacao": 3.2
+			},
+			{
+				"id": "CLI056",
+				"nome": "Seguros Mega",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Pequeno",
+				"produtos": [
+					"CIR",
+					"SGE",
+					"nsseg - Averbação",
+					"nsre",
+					"nscorr"
+				],
+				"mrr": 3246,
+				"tempo_cliente": 4,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI057",
+				"nome": "Corretora Ultra MEI",
+				"persona": "Segurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Micro",
+				"produtos": [
+					"Pesquisa 4.0",
+					"nsseg - Faturamento (CITWEB)",
+					"nsseg - Averbação",
+					"nscorr",
+					"nsseg - Faturamento (CIT)"
+				],
+				"mrr": 499,
+				"tempo_cliente": 106,
+				"satisfacao": 4.6
+			},
+			{
+				"id": "CLI058",
+				"nome": "Obras Master",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - TMS",
+					"Datamex - TMS Nacional",
+					"Opentech - Cadastro ",
+					"Bsoft - Controle de Transportadoras"
+				],
+				"mrr": 882,
+				"tempo_cliente": 114,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI059",
+				"nome": "Indústria Super",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - Novo YMS (.Net)",
+					"Comprovei - Comprovei Enterprise",
+					"nspedágio - Conta única",
+					"nspedágio - Integradores"
+				],
+				"mrr": 70339,
+				"tempo_cliente": 42,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI060",
+				"nome": "Loja Online Delta",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "E-commerce",
+				"porte": "Micro",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Bsoft - CTe Prático",
+					"Otimizy - Erpsoft One",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Controle Comercial",
+					"Bsoft - MDFe Prático"
+				],
+				"mrr": 348,
+				"tempo_cliente": 93,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI061",
+				"nome": "Loja Nordeste",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Pequeno",
+				"produtos": [
+					"Otimizy - Erpsoft One",
+					"Bsoft - Controle Comercial",
+					"Bsoft - NFe Prático",
+					"Bsoft - One"
+				],
+				"mrr": 3852,
+				"tempo_cliente": 49,
+				"satisfacao": 3.0
+			},
+			{
+				"id": "CLI062",
+				"nome": "Autopeças Elite",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Autopeças",
+				"porte": "Médio",
+				"produtos": [
+					"Bsoft - Localiza Carga",
+					"Comprovei - Comprovei Cargo",
+					"Multisoftware - Roteirizador",
+					"RoutEasy - Maestro",
+					"Trizy - GPED"
+				],
+				"mrr": 8535,
+				"tempo_cliente": 79,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI063",
+				"nome": "Logística Rápida",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Médio",
+				"produtos": [
+					"Opentech - SIL",
+					"KMM - TMS Enterprise & Corporate",
+					"Atua - Mais Frete",
+					"New KMM - LTL",
+					"Trafegus - CAD 4.0",
+					"BRK - BRLog",
+					"Avacorp-i"
+				],
+				"mrr": 12884,
+				"tempo_cliente": 76,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI064",
+				"nome": "Rodoviário Leste",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - TMS Essentials",
+					"Buonny - Buonny Log",
+					"KMM - TMS Enterprise & Corporate"
+				],
+				"mrr": 38573,
+				"tempo_cliente": 87,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI065",
+				"nome": "Rural Veloz",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Agronegócio",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Bsoft - MDFe Prático",
+					"Otimizy - Muvly"
+				],
+				"mrr": 2857,
+				"tempo_cliente": 13,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI066",
+				"nome": "Construção Express MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Micro",
+				"produtos": [
+					"Hivecloud - CTe",
+					"Otimizy - Muvly",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 562,
+				"tempo_cliente": 13,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI067",
+				"nome": "Rodoviário Baiana",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"Signa - e-Cargo TMS",
+					"Avacorp-i",
+					"Trafegus - Gestão de Riscos - Web"
+				],
+				"mrr": 86470,
+				"tempo_cliente": 116,
+				"satisfacao": 3.0
+			},
+			{
+				"id": "CLI068",
+				"nome": "Frigorífico Premium",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Grande",
+				"produtos": [
+					"Fusion - DMS - Roteirizador",
+					"Fusion - DMS - Gestão de Entregas",
+					"Fusion - DMS - Jornada de Trabalho",
+					"Trizy - GPED",
+					"KMM - Portus (GTP)"
+				],
+				"mrr": 88537,
+				"tempo_cliente": 120,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI069",
+				"nome": "Indústria Sul",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Médio",
+				"produtos": [
+					"Signa - e-Cargo Embarcador",
+					"Trizy - GPED",
+					"Multisoftware - MultiEmbarcador"
+				],
+				"mrr": 11613,
+				"tempo_cliente": 85,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI070",
+				"nome": "Logística Alpha",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"New KMM - LTL",
+					"Atua - Mais Frete",
+					"Opentech - GR",
+					"Praxio - Globus Cargas"
+				],
+				"mrr": 76995,
+				"tempo_cliente": 45,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI071",
+				"nome": "Obras Pantanal",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Grande",
+				"produtos": [
+					"Fusion - DMS - Gestão de Entregas",
+					"WMS - Locus",
+					"Trizy - GPED",
+					"Datamex - WMS"
+				],
+				"mrr": 134256,
+				"tempo_cliente": 105,
+				"satisfacao": 3.0
+			},
+			{
+				"id": "CLI072",
+				"nome": "Supermercados Central",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"LogOne - YMS",
+					"Multisoftware - MultiEmbarcador",
+					"Trizy - GPED",
+					"KMM - Rota Certa"
+				],
+				"mrr": 141354,
+				"tempo_cliente": 64,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI073",
+				"nome": "Bar Amazônia",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Alimentos",
+				"porte": "Micro",
+				"produtos": [
+					"Pesquisa 4.0",
+					"Multisoftware - MultiCTe",
+					"Hivecloud - MDFe",
+					"Bsoft - One"
+				],
+				"mrr": 616,
+				"tempo_cliente": 85,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI074",
+				"nome": "Posto Alpha",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Pequeno",
+				"produtos": [
+					"Multisoftware - MultiCTe"
+				],
+				"mrr": 3550,
+				"tempo_cliente": 78,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI075",
+				"nome": "Obras Plus",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Pequeno",
+				"produtos": [
+					"Hivecloud - CTe"
+				],
+				"mrr": 3667,
+				"tempo_cliente": 119,
+				"satisfacao": 3.4
+			},
+			{
+				"id": "CLI076",
+				"nome": "Seguros Gaúcha",
+				"persona": "Corretor",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Grande",
+				"produtos": [
+					"nsseg - Avulsa",
+					"BRK - BRSystem (Cadastro)",
+					"nsseg - Averbação",
+					"Opentech - Cadastro ",
+					"nsseg - Jornada de Cotação",
+					"nscorr"
+				],
+				"mrr": 105212,
+				"tempo_cliente": 104,
+				"satisfacao": 3.7
+			},
+			{
+				"id": "CLI077",
+				"nome": "Corretora Norte",
+				"persona": "Segurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Pequeno",
+				"produtos": [
+					"nsseg - Avulsa",
+					"SGE",
+					"nsseg - Cotação (SSC)",
+					"Opentech - Cadastro ",
+					"nsseg - Jornada de Cotação"
+				],
+				"mrr": 2300,
+				"tempo_cliente": 87,
+				"satisfacao": 3.4
+			},
+			{
+				"id": "CLI078",
+				"nome": "Peças Gamma MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Autopeças",
+				"porte": "Micro",
+				"produtos": [
+					"BRK - BRSystem (Cadastro)",
+					"Datamex - Emissor Simples",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 291,
+				"tempo_cliente": 105,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI079",
+				"nome": "Farmácias Super",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Farmácia",
+				"porte": "Grande",
+				"produtos": [
+					"Fusion - DMS - Gestão de Entregas",
+					"nspedágio - Integradores",
+					"Fusion - DMS - Jornada de Trabalho",
+					"Routeasy - Routing",
+					"RoutEasy - Maestro",
+					"nspedágio - Conta única"
+				],
+				"mrr": 69046,
+				"tempo_cliente": 75,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI080",
+				"nome": "Combustíveis Atlântica",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Combustíveis",
+				"porte": "Grande",
+				"produtos": [
+					"nspedágio - Integradores",
+					"WMS - Locus",
+					"KMM - Rota Certa",
+					"Datamex - WMS",
+					"nspedágio - Conta única"
+				],
+				"mrr": 60920,
+				"tempo_cliente": 45,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI081",
+				"nome": "Construção Alpha",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Médio",
+				"produtos": [
+					"LogOne - YMS",
+					"Comprovei - Comprovei Enterprise",
+					"Bsoft - Localiza Carga",
+					"GBM - TOT"
+				],
+				"mrr": 7014,
+				"tempo_cliente": 4,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI082",
+				"nome": "Posto Mega",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Pequeno",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Bsoft - CTe Prático"
+				],
+				"mrr": 1505,
+				"tempo_cliente": 67,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI083",
+				"nome": "E-commerce Delta",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "E-commerce",
+				"porte": "Médio",
+				"produtos": [
+					"qualp",
+					"Fusion - DMS - Roteirizador",
+					"Fusion - DMS - Gestão de Entregas",
+					"WMS - Locus",
+					"Datamex - WMS",
+					"nspedágio - Conta única"
+				],
+				"mrr": 15291,
+				"tempo_cliente": 87,
+				"satisfacao": 3.5
+			},
+			{
+				"id": "CLI084",
+				"nome": "Auto Peças Alpha",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Autopeças",
+				"porte": "Grande",
+				"produtos": [
+					"RoutEasy - Gestão de Entregas",
+					"Bsoft - Localiza Carga"
+				],
+				"mrr": 80404,
+				"tempo_cliente": 40,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI085",
+				"nome": "Construção Pro",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Pequeno",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Buonny - Buonny Check",
+					"Otimizy - Coleta XML",
+					"Bsoft - TMS",
+					"Opentech - Cadastro "
+				],
+				"mrr": 4948,
+				"tempo_cliente": 119,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI086",
+				"nome": "Alimentos Cerrado",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Médio",
+				"produtos": [
+					"Fusion - DMS - Jornada de Trabalho",
+					"Hivecloud - AR",
+					"Trizy - GPED",
+					"Fusion - DMS - Roteirizador"
+				],
+				"mrr": 14816,
+				"tempo_cliente": 8,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI087",
+				"nome": "Transportes Express",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Médio",
+				"produtos": [
+					"Buonny - Buonny SAT",
+					"Trafegus - Gestão de Riscos - Web",
+					"New KMM - LTL",
+					"Trafegus - CAD 4.0",
+					"Opentech - GR",
+					"Signa - e-Cargo TMS",
+					"Avacorp-i"
+				],
+				"mrr": 12358,
+				"tempo_cliente": 4,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI088",
+				"nome": "Combustíveis Delta",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Combustíveis",
+				"porte": "Grande",
+				"produtos": [
+					"LogOne - YMS",
+					"Trizy - Classificador",
+					"nspedágio - Integradores",
+					"Trizy - GPED"
+				],
+				"mrr": 34428,
+				"tempo_cliente": 34,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI089",
+				"nome": "Loja Online Oeste",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "E-commerce",
+				"porte": "Micro",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Buonny - Buonny Check",
+					"Bsoft - TMS",
+					"Datamex - Xml Protegido",
+					"Bsoft - One"
+				],
+				"mrr": 395,
+				"tempo_cliente": 106,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI090",
+				"nome": "Drogaria Ultra",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Farmácia",
+				"porte": "Médio",
+				"produtos": [
+					"qualp",
+					"Signa - e-Cargo Embarcador",
+					"KMM - GUM",
+					"Hivecloud - 3PL",
+					"KMM - Rota Certa",
+					"KMM - Novo YMS (.Net)",
+					"Trizy - GPED"
+				],
+				"mrr": 6214,
+				"tempo_cliente": 101,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI091",
+				"nome": "Magazine Max",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"Trizy - Novo Cargas"
+				],
+				"mrr": 140218,
+				"tempo_cliente": 45,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI092",
+				"nome": "Comércio Super",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Micro",
+				"produtos": [
+					"Opentech - Cadastro ",
+					"BRK - BRSystem (Cadastro)",
+					"Otimizy - Erpsoft One"
+				],
+				"mrr": 566,
+				"tempo_cliente": 37,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI093",
+				"nome": "E-commerce Baiana",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "E-commerce",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Bsoft - Controle de Transportadoras",
+					"Bsoft - One"
+				],
+				"mrr": 3905,
+				"tempo_cliente": 108,
+				"satisfacao": 4.6
+			},
+			{
+				"id": "CLI094",
+				"nome": "Auto Posto Delta",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Bsoft - One",
+					"Bsoft - Controle de Transportadoras",
+					"Otimizy - Erpsoft One"
+				],
+				"mrr": 3617,
+				"tempo_cliente": 81,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI095",
+				"nome": "Loja de Peças Super",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Autopeças",
+				"porte": "Pequeno",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Bsoft - One"
+				],
+				"mrr": 4432,
+				"tempo_cliente": 39,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI096",
+				"nome": "Construtora Pantanal",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Médio",
+				"produtos": [
+					"KMM - GUM",
+					"KMM - Novo YMS (.Net)",
+					"KMM - Rota Certa"
+				],
+				"mrr": 14206,
+				"tempo_cliente": 23,
+				"satisfacao": 4.6
+			},
+			{
+				"id": "CLI097",
+				"nome": "Processadora Oeste",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Grande",
+				"produtos": [
+					"Trizy - B3",
+					"nspedágio - Integradores",
+					"Trizy - GPED",
+					"KMM - SAAGRA"
+				],
+				"mrr": 142347,
+				"tempo_cliente": 57,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI098",
+				"nome": "Comércio Paulista",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"BRK - BRSystem (Cadastro)",
+					"Bsoft - NFe Prático",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Controle de Transportadoras",
+					"Bsoft - Controle Comercial",
+					"Datamex - Xml Protegido"
+				],
+				"mrr": 674,
+				"tempo_cliente": 60,
+				"satisfacao": 3.1
+			},
+			{
+				"id": "CLI099",
+				"nome": "Agropecuária Cerrado",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Grande",
+				"produtos": [
+					"Signa - e-Cargo Embarcador",
+					"Fusion - DMS - Jornada de Trabalho",
+					"Fusion - DMS - Roteirizador",
+					"Hivecloud - 3PL"
+				],
+				"mrr": 79879,
+				"tempo_cliente": 73,
+				"satisfacao": 3.7
+			},
+			{
+				"id": "CLI100",
+				"nome": "Lojinha Gaúcha",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Micro",
+				"produtos": [
+					"Datamex - Emissor Simples",
+					"Hivecloud - CTe",
+					"Hivecloud - MDFe"
+				],
+				"mrr": 284,
+				"tempo_cliente": 5,
+				"satisfacao": 3.1
+			},
+			{
+				"id": "CLI101",
+				"nome": "Construtora Cerrado",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Médio",
+				"produtos": [
+					"Signa - e-Cargo Embarcador",
+					"Multisoftware - MultiEmbarcador",
+					"WMS - Locus",
+					"RoutEasy - Gestão de Entregas",
+					"Datamex - Entreguei",
+					"Hivecloud - 3PL",
+					"Hivecloud - AR"
+				],
+				"mrr": 13139,
+				"tempo_cliente": 60,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI102",
+				"nome": "Combustíveis Norte",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Combustíveis",
+				"porte": "Grande",
+				"produtos": [
+					"Comprovei - Comprovei Enterprise",
+					"qualp",
+					"GBM - TOT",
+					"RoutEasy - Gestão de Entregas",
+					"Trizy - Classificador",
+					"Trizy - GPED"
+				],
+				"mrr": 46914,
+				"tempo_cliente": 84,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI103",
+				"nome": "Drogaria Gaúcha",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Farmácia",
+				"porte": "Grande",
+				"produtos": [
+					"Signa - e-Cargo Embarcador",
+					"Hivecloud - 3PL",
+					"Fusion - DMS - Roteirizador"
+				],
+				"mrr": 97764,
+				"tempo_cliente": 8,
+				"satisfacao": 3.2
+			},
+			{
+				"id": "CLI104",
+				"nome": "Posto Alpha",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Pequeno",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Otimizy - Erpsoft One",
+					"Bsoft - TMS",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 4424,
+				"tempo_cliente": 88,
+				"satisfacao": 3.5
+			},
+			{
+				"id": "CLI105",
+				"nome": "Transportes Mineira",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Pequeno",
+				"produtos": [
+					"Buonny - Buonny Check",
+					"Bsoft - One",
+					"Opentech - Cadastro ",
+					"Otimizy - Muvly",
+					"Bsoft - Controle de Transportadoras",
+					"Atua - Mais CTe",
+					"Hivecloud - CTe",
+					"Hivecloud - TMS"
+				],
+				"mrr": 4629,
+				"tempo_cliente": 96,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI106",
+				"nome": "Rodoviário Prime",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"Trafegus - CAD 4.0",
+					"Opentech - SIL",
+					"Atua - Mais Frete",
+					"Trafegus - Gestão de Riscos - Delphi"
+				],
+				"mrr": 129746,
+				"tempo_cliente": 56,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI107",
+				"nome": "Sítio Nordeste",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Agronegócio",
+				"porte": "Micro",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"BRK - BRSystem (Cadastro)",
+					"Otimizy - ErpSoft Desktop",
+					"Otimizy - Erpsoft One",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 474,
+				"tempo_cliente": 120,
+				"satisfacao": 3.5
+			},
+			{
+				"id": "CLI108",
+				"nome": "Bar Plus",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Alimentos",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"Otimizy - Erpsoft One",
+					"Bsoft - TMS",
+					"Otimizy - Coleta XML",
+					"Bsoft - Controle de Transportadoras",
+					"Bsoft - Controle Comercial",
+					"Bsoft - One"
+				],
+				"mrr": 617,
+				"tempo_cliente": 29,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI109",
+				"nome": "Agro Gamma",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Médio",
+				"produtos": [
+					"Fusion - DMS - Roteirizador",
+					"Fusion - DMS - Gestão de Entregas",
+					"Fusion - DMS - Jornada de Trabalho",
+					"Datamex - WMS",
+					"Routeasy - Routing"
+				],
+				"mrr": 18647,
+				"tempo_cliente": 33,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI110",
+				"nome": "Comércio Delta",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Micro",
+				"produtos": [
+					"Hivecloud - CTe",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 561,
+				"tempo_cliente": 82,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI111",
+				"nome": "Construção Oeste MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - MDFe Prático",
+					"Hivecloud - MDFe",
+					"Atua - Mais CTe"
+				],
+				"mrr": 474,
+				"tempo_cliente": 105,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI112",
+				"nome": "Drogaria Gaúcha",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Farmácia",
+				"porte": "Médio",
+				"produtos": [
+					"Datamex - Entreguei",
+					"Comprovei - Comprovei Enterprise",
+					"Bsoft - Localiza Carga"
+				],
+				"mrr": 20493,
+				"tempo_cliente": 46,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI113",
+				"nome": "Construção Baiana MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"Buonny - Buonny Check",
+					"Opentech - Cadastro ",
+					"Datamex - Emissor Simples",
+					"Bsoft - Controle de Transportadoras",
+					"Hivecloud - TMS"
+				],
+				"mrr": 732,
+				"tempo_cliente": 61,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI114",
+				"nome": "Frigorífico Master",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Alimentos",
+				"porte": "Grande",
+				"produtos": [
+					"Trizy - Classificador",
+					"GBM - TOT"
+				],
+				"mrr": 49601,
+				"tempo_cliente": 99,
+				"satisfacao": 4.6
+			},
+			{
+				"id": "CLI115",
+				"nome": "Proteção Atlântica",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Médio",
+				"produtos": [
+					"CIR",
+					"SGE",
+					"nsseg - Cotação (SSC)",
+					"nsre",
+					"nscorr"
+				],
+				"mrr": 12416,
+				"tempo_cliente": 88,
+				"satisfacao": 3.7
+			},
+			{
+				"id": "CLI116",
+				"nome": "Proteção Sul",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Médio",
+				"produtos": [
+					"CIR",
+					"Opentech - Cadastro ",
+					"nscorr",
+					"nsseg - Jornada de Cotação",
+					"nsre",
+					"BU VGR - Cadastro Unificado"
+				],
+				"mrr": 16284,
+				"tempo_cliente": 105,
+				"satisfacao": 3.5
+			},
+			{
+				"id": "CLI117",
+				"nome": "Engenharia Gaúcha",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Grande",
+				"produtos": [
+					"qualp",
+					"KMM - Flow TOS/Automação",
+					"Hivecloud - 3PL",
+					"LogOne - YMS",
+					"Trizy - Cargas (Legado)",
+					"KMM - Portus (GTP)"
+				],
+				"mrr": 106126,
+				"tempo_cliente": 18,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI118",
+				"nome": "Posto Mineira MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Micro",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Datamex - TMS Nacional",
+					"Bsoft - TMS",
+					"Datamex - Emissor Simples",
+					"Otimizy - Muvly",
+					"Hivecloud - TMS"
+				],
+				"mrr": 430,
+				"tempo_cliente": 69,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI119",
+				"nome": "Seguros Central",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Grande",
+				"produtos": [
+					"nsseg - Faturamento (CITWEB)"
+				],
+				"mrr": 141445,
+				"tempo_cliente": 97,
+				"satisfacao": 3.4
+			},
+			{
+				"id": "CLI120",
+				"nome": "Loja Online Prime",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "E-commerce",
+				"porte": "Pequeno",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Bsoft - nsdocs",
+					"Pesquisa 4.0",
+					"Bsoft - CTe Prático",
+					"Otimizy - Coleta XML"
+				],
+				"mrr": 1337,
+				"tempo_cliente": 8,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI121",
+				"nome": "Transportes Beta",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"BRK - BRChecklist",
+					"KMM - TMS Enterprise & Corporate"
+				],
+				"mrr": 142069,
+				"tempo_cliente": 66,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI122",
+				"nome": "Supermercados Max",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"Signa - e-Cargo Embarcador",
+					"KMM - Flow TOS/Automação",
+					"KMM - Novo YMS (PHP)",
+					"Hivecloud - 3PL",
+					"Trizy - Cargas (Legado)"
+				],
+				"mrr": 41251,
+				"tempo_cliente": 91,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI123",
+				"nome": "Loja de Peças Central",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Autopeças",
+				"porte": "Pequeno",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Bsoft - One"
+				],
+				"mrr": 4161,
+				"tempo_cliente": 14,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI124",
+				"nome": "Magazine Carioca",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Médio",
+				"produtos": [
+					"Multisoftware - MultiEmbarcador",
+					"Fusion - DMS - Roteirizador",
+					"Fusion - DMS - Gestão de Entregas",
+					"Hivecloud - 3PL",
+					"nspedágio - Conta única"
+				],
+				"mrr": 11223,
+				"tempo_cliente": 11,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI125",
+				"nome": "Rodoviário Beta",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"Buonny - Buonny SAT",
+					"Atua - Mais Frete",
+					"BRK - BRSystem (Gerenciamento de Risco)"
+				],
+				"mrr": 50541,
+				"tempo_cliente": 65,
+				"satisfacao": 3.4
+			},
+			{
+				"id": "CLI126",
+				"nome": "Agro Prime",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Agronegócio",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Pesquisa 4.0",
+					"Otimizy - Erpsoft One",
+					"Otimizy - ErpSoft Desktop",
+					"Hivecloud - CTe"
+				],
+				"mrr": 4259,
+				"tempo_cliente": 92,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI127",
+				"nome": "Cooperativa Plus",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Grande",
+				"produtos": [
+					"RoutEasy - Gestão de Entregas",
+					"Comprovei - Comprovei Cargo",
+					"Hivecloud - AR"
+				],
+				"mrr": 124577,
+				"tempo_cliente": 99,
+				"satisfacao": 3.7
+			},
+			{
+				"id": "CLI128",
+				"nome": "Seguradora Mega",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Grande",
+				"produtos": [
+					"nsseg - Avulsa",
+					"nsseg - Cotação (SSC)",
+					"BU VGR - Cadastro Unificado",
+					"nsre",
+					"nscorr",
+					"nsseg - Faturamento (CIT)"
+				],
+				"mrr": 122807,
+				"tempo_cliente": 44,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI129",
+				"nome": "Drogaria Pantanal",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Farmácia",
+				"porte": "Médio",
+				"produtos": [
+					"KMM - GTM ",
+					"WMS - Locus",
+					"Datamex - WMS",
+					"Multisoftware - Roteirizador",
+					"RoutEasy - Maestro",
+					"Trizy - BID"
+				],
+				"mrr": 21155,
+				"tempo_cliente": 118,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI130",
+				"nome": "Rural Rápida",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Médio",
+				"produtos": [
+					"Trizy - TSM",
+					"Datamex - Entreguei",
+					"Comprovei - Comprovei Cargo",
+					"KMM - SAAGRA"
+				],
+				"mrr": 19141,
+				"tempo_cliente": 32,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI131",
+				"nome": "Expresso Atlântica",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"Opentech - SIL",
+					"Atua - Mais Frete",
+					"Buonny - Buonny Log"
+				],
+				"mrr": 127200,
+				"tempo_cliente": 86,
+				"satisfacao": 3.1
+			},
+			{
+				"id": "CLI132",
+				"nome": "Distribuidora Leste",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Autopeças",
+				"porte": "Grande",
+				"produtos": [
+					"Signa - e-Cargo Embarcador",
+					"Multisoftware - MultiEmbarcador",
+					"RoutEasy - Gestão de Entregas",
+					"Comprovei - Comprovei Cargo",
+					"Datamex - Entreguei",
+					"Datamex - WMS",
+					"Trizy - GPED"
+				],
+				"mrr": 91982,
+				"tempo_cliente": 99,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI133",
+				"nome": "Rodoviário Pantanal",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"BRK - BRLog",
+					"Buonny - Buonny Log",
+					"KMM - TMS Enterprise & Corporate"
+				],
+				"mrr": 25603,
+				"tempo_cliente": 59,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI134",
+				"nome": "Corretora Delta MEI",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Micro",
+				"produtos": [
+					"CIR",
+					"SGE",
+					"nsseg - Cotação (SSC)",
+					"nsseg - Jornada de Cotação",
+					"nscorr"
+				],
+				"mrr": 641,
+				"tempo_cliente": 22,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI135",
+				"nome": "Logística Mega MEI",
+				"persona": "Transportador",
+				"torre": "Torre PME",
+				"setor": "Transporte Rodoviário",
+				"porte": "Micro",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Datamex - TMS Nacional",
+					"Pesquisa 4.0",
+					"Bsoft - CTe Prático",
+					"Bsoft - One",
+					"BU VGR - Cadastro Unificado",
+					"Atua - Mais CTe",
+					"Hivecloud - TMS"
+				],
+				"mrr": 587,
+				"tempo_cliente": 92,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI136",
+				"nome": "Seguros Mega",
+				"persona": "Corretor",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Médio",
+				"produtos": [
+					"CIR",
+					"Buonny - Buonny Check",
+					"SGE",
+					"Opentech - Cadastro ",
+					"nsre",
+					"nscorr"
+				],
+				"mrr": 14909,
+				"tempo_cliente": 69,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI137",
+				"nome": "Construção Atlântica MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - One"
+				],
+				"mrr": 775,
+				"tempo_cliente": 48,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI138",
+				"nome": "Sítio Rápida",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Agronegócio",
+				"porte": "Pequeno",
+				"produtos": [
+					"Otimizy - Coleta XML",
+					"Bsoft - Controle de Transportadoras",
+					"Hivecloud - TMS"
+				],
+				"mrr": 3192,
+				"tempo_cliente": 90,
+				"satisfacao": 4.1
+			},
+			{
+				"id": "CLI139",
+				"nome": "Auto Mineira",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Autopeças",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - CTe Prático",
+					"Otimizy - Erpsoft One",
+					"Otimizy - ErpSoft Desktop",
+					"Datamex - Emissor Simples",
+					"Multisoftware - MultiCTe"
+				],
+				"mrr": 1421,
+				"tempo_cliente": 31,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI140",
+				"nome": "Lanchonete Paulista",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Alimentos",
+				"porte": "Pequeno",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Bsoft - NFe Prático",
+					"Otimizy - ErpSoft Desktop",
+					"Otimizy - Coleta XML",
+					"BU VGR - Cadastro Unificado",
+					"Bsoft - Controle de Transportadoras",
+					"Hivecloud - TMS"
+				],
+				"mrr": 1199,
+				"tempo_cliente": 50,
+				"satisfacao": 3.4
+			},
+			{
+				"id": "CLI141",
+				"nome": "Construtora Rápida",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Médio",
+				"produtos": [
+					"Multisoftware - MultiEmbarcador",
+					"Signa - e-Cargo Embarcador",
+					"Hivecloud - 3PL",
+					"KMM - Rota Certa",
+					"Multisoftware - Roteirizador",
+					"Trizy - GPED"
+				],
+				"mrr": 14775,
+				"tempo_cliente": 32,
+				"satisfacao": 3.0
+			},
+			{
+				"id": "CLI142",
+				"nome": "Obras Ultra",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - Controle Comercial",
+					"Otimizy - Muvly",
+					"Otimizy - ErpSoft Desktop",
+					"Otimizy - Erpsoft One"
+				],
+				"mrr": 1610,
+				"tempo_cliente": 22,
+				"satisfacao": 3.2
+			},
+			{
+				"id": "CLI143",
+				"nome": "Farmácia Leste",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Farmácia",
+				"porte": "Pequeno",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Bsoft - TMS",
+					"Atua - Mais CTe",
+					"Bsoft - MDFe Prático",
+					"Datamex - Xml Protegido"
+				],
+				"mrr": 4161,
+				"tempo_cliente": 111,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI144",
+				"nome": "Restaurante Central",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Alimentos",
+				"porte": "Pequeno",
+				"produtos": [
+					"Opentech - Cadastro ",
+					"Bsoft - nsdocs",
+					"Multisoftware - MultiCTe"
+				],
+				"mrr": 1892,
+				"tempo_cliente": 55,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI145",
+				"nome": "Seguros Central",
+				"persona": "Corretor",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Médio",
+				"produtos": [
+					"CIR",
+					"SGE",
+					"nsseg - Faturamento (CITWEB)",
+					"nsseg - Cotação (SSC)",
+					"nscorr",
+					"nsseg - Jornada de Cotação",
+					"nsre"
+				],
+				"mrr": 23789,
+				"tempo_cliente": 25,
+				"satisfacao": 3.4
+			},
+			{
+				"id": "CLI146",
+				"nome": "Corretora Cerrado MEI",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Micro",
+				"produtos": [
+					"nsseg - Avulsa",
+					"CIR",
+					"SGE",
+					"Opentech - Cadastro ",
+					"nscorr",
+					"nsre",
+					"nsseg - Faturamento (CIT)",
+					"BU VGR - Cadastro Unificado"
+				],
+				"mrr": 354,
+				"tempo_cliente": 99,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI147",
+				"nome": "Seguros Leste",
+				"persona": "Corretor",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Pequeno",
+				"produtos": [
+					"Opentech - Cadastro ",
+					"nsre",
+					"CIR",
+					"nscorr"
+				],
+				"mrr": 3313,
+				"tempo_cliente": 68,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI148",
+				"nome": "Granja Veloz",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Grande",
+				"produtos": [
+					"Hivecloud - 3PL",
+					"nspedágio - Conta única",
+					"Bsoft - Localiza Carga",
+					"qualp"
+				],
+				"mrr": 124241,
+				"tempo_cliente": 16,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI149",
+				"nome": "Fazenda Oeste",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Médio",
+				"produtos": [
+					"Datamex - Entreguei",
+					"KMM - Portus (GTP)",
+					"Trizy - GPED",
+					"WMS - Locus"
+				],
+				"mrr": 18876,
+				"tempo_cliente": 96,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI150",
+				"nome": "Loja de Peças Veloz",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Autopeças",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - One",
+					"Opentech - Cadastro ",
+					"Buonny - Buonny Check",
+					"Hivecloud - TMS"
+				],
+				"mrr": 1872,
+				"tempo_cliente": 13,
+				"satisfacao": 3.9
+			},
+			{
+				"id": "CLI151",
+				"nome": "Loja Online Nordeste",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "E-commerce",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Otimizy - ErpSoft Desktop",
+					"Otimizy - Erpsoft One"
+				],
+				"mrr": 312,
+				"tempo_cliente": 61,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI152",
+				"nome": "Posto Nordeste MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Micro",
+				"produtos": [
+					"Otimizy - Coleta XML",
+					"Datamex - Xml Protegido",
+					"Datamex - TMS Nacional",
+					"Hivecloud - TMS"
+				],
+				"mrr": 470,
+				"tempo_cliente": 13,
+				"satisfacao": 5.0
+			},
+			{
+				"id": "CLI153",
+				"nome": "Combustíveis Veloz",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Combustíveis",
+				"porte": "Médio",
+				"produtos": [
+					"Signa - e-Cargo Embarcador",
+					"Multisoftware - MultiEmbarcador",
+					"WMS - Locus",
+					"Hivecloud - 3PL",
+					"Datamex - WMS",
+					"Trizy - GPED"
+				],
+				"mrr": 18900,
+				"tempo_cliente": 120,
+				"satisfacao": 3.5
+			},
+			{
+				"id": "CLI154",
+				"nome": "Loja Sul",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Pesquisa 4.0",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 1335,
+				"tempo_cliente": 96,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI155",
+				"nome": "Construtora Central",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Médio",
+				"produtos": [
+					"Comprovei - Comprovei Enterprise",
+					"Fusion - DMS - Roteirizador",
+					"Fusion - DMS - Gestão de Entregas",
+					"Fusion - DMS - Jornada de Trabalho",
+					"RoutEasy - Gestão de Entregas",
+					"KMM - Portus (GTP)"
+				],
+				"mrr": 7164,
+				"tempo_cliente": 43,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI156",
+				"nome": "Posto Nordeste",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"Buonny - Buonny Check",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Controle de Transportadoras",
+					"Bsoft - Controle Comercial"
+				],
+				"mrr": 3955,
+				"tempo_cliente": 36,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI157",
+				"nome": "Online Premium",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "E-commerce",
+				"porte": "Médio",
+				"produtos": [
+					"Fusion - DMS - Gestão de Entregas",
+					"Trizy - B3",
+					"KMM - GUM",
+					"Trizy - Classificador",
+					"Trizy - GPED"
+				],
+				"mrr": 6200,
+				"tempo_cliente": 73,
+				"satisfacao": 4.6
+			},
+			{
+				"id": "CLI158",
+				"nome": "Construção Mineira",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Médio",
+				"produtos": [
+					"Trizy - Classificador"
+				],
+				"mrr": 7062,
+				"tempo_cliente": 43,
+				"satisfacao": 3.2
+			},
+			{
+				"id": "CLI159",
+				"nome": "Cooperativa Atlântica",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Médio",
+				"produtos": [
+					"KMM - GTM ",
+					"Comprovei - Comprovei Enterprise"
+				],
+				"mrr": 5059,
+				"tempo_cliente": 54,
+				"satisfacao": 4.9
+			},
+			{
+				"id": "CLI160",
+				"nome": "Lanchonete Master",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Alimentos",
+				"porte": "Micro",
+				"produtos": [
+					"Datamex - Emissor Simples"
+				],
+				"mrr": 638,
+				"tempo_cliente": 71,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI161",
+				"nome": "Proteção Paulista",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Grande",
+				"produtos": [
+					"CIR",
+					"SGE",
+					"Pesquisa 4.0",
+					"nsseg - Averbação",
+					"Opentech - Cadastro ",
+					"nscorr",
+					"nsseg - Faturamento (CIT)"
+				],
+				"mrr": 38847,
+				"tempo_cliente": 118,
+				"satisfacao": 3.1
+			},
+			{
+				"id": "CLI162",
+				"nome": "Corretora Alpha",
+				"persona": "Corretor",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Pequeno",
+				"produtos": [
+					"BU VGR - Cadastro Unificado",
+					"nscorr",
+					"SGE"
+				],
+				"mrr": 4597,
+				"tempo_cliente": 7,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI163",
+				"nome": "Magazine Central",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"Hivecloud - 3PL",
+					"Multisoftware - MultiEmbarcador",
+					"KMM - SAAGRA"
+				],
+				"mrr": 77124,
+				"tempo_cliente": 103,
+				"satisfacao": 3.2
+			},
+			{
+				"id": "CLI164",
+				"nome": "Bar Mineira",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Alimentos",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - MDFe Prático",
+					"Bsoft - NFe Prático",
+					"Otimizy - ErpSoft Desktop"
+				],
+				"mrr": 691,
+				"tempo_cliente": 82,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI165",
+				"nome": "Marketplace Oeste",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "E-commerce",
+				"porte": "Grande",
+				"produtos": [
+					"GBM - TOT",
+					"Datamex - WMS",
+					"LogOne - YMS",
+					"Trizy - Novo Cargas",
+					"KMM - Portus (GTP)"
+				],
+				"mrr": 144185,
+				"tempo_cliente": 46,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI166",
+				"nome": "Autopeças Premium",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Autopeças",
+				"porte": "Médio",
+				"produtos": [
+					"Comprovei - Comprovei Enterprise",
+					"Trizy - TSM",
+					"Datamex - Entreguei",
+					"Routeasy - Routing",
+					"Multisoftware - Roteirizador",
+					"KMM - Novo YMS (.Net)"
+				],
+				"mrr": 19478,
+				"tempo_cliente": 78,
+				"satisfacao": 3.5
+			},
+			{
+				"id": "CLI167",
+				"nome": "Proteção Max",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Médio",
+				"produtos": [
+					"nsre",
+					"nsseg - Faturamento (CITWEB)",
+					"SGE"
+				],
+				"mrr": 13336,
+				"tempo_cliente": 117,
+				"satisfacao": 4.9
+			},
+			{
+				"id": "CLI168",
+				"nome": "Construtora Premium",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Construção",
+				"porte": "Médio",
+				"produtos": [
+					"Hivecloud - 3PL",
+					"KMM - Portus (GTP)",
+					"Signa - e-Cargo Embarcador",
+					"WMS - Locus"
+				],
+				"mrr": 21244,
+				"tempo_cliente": 17,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI169",
+				"nome": "Fazenda Atlântica",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Agronegócio",
+				"porte": "Micro",
+				"produtos": [
+					"BRK - BRSystem (Cadastro)",
+					"Bsoft - Controle de Transportadoras",
+					"Hivecloud - TMS"
+				],
+				"mrr": 610,
+				"tempo_cliente": 81,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI170",
+				"nome": "Farmácia Delta",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Farmácia",
+				"porte": "Médio",
+				"produtos": [
+					"Fusion - DMS - Roteirizador",
+					"Fusion - DMS - Gestão de Entregas",
+					"Fusion - DMS - Jornada de Trabalho",
+					"Comprovei - Comprovei Cargo",
+					"Datamex - Entreguei",
+					"Hivecloud - AR",
+					"Trizy - GPED"
+				],
+				"mrr": 11216,
+				"tempo_cliente": 81,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI171",
+				"nome": "Loja Online Carioca",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "E-commerce",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - MDFe Prático",
+					"Bsoft - nsdocs",
+					"Datamex - Xml Protegido",
+					"Bsoft - One"
+				],
+				"mrr": 4270,
+				"tempo_cliente": 71,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI172",
+				"nome": "Expresso Delta",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"Opentech - SIL",
+					"KMM - TMS Enterprise & Corporate",
+					"BU VGR - Rastrear",
+					"Atua - Mais Frete",
+					"New KMM",
+					"Signa - e-Cargo TMS"
+				],
+				"mrr": 46216,
+				"tempo_cliente": 25,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI173",
+				"nome": "Seguradora Alpha",
+				"persona": "Ressegurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Médio",
+				"produtos": [
+					"CIR"
+				],
+				"mrr": 23205,
+				"tempo_cliente": 90,
+				"satisfacao": 4.0
+			},
+			{
+				"id": "CLI174",
+				"nome": "Drogaria Mineira",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Farmácia",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"Datamex - Xml Protegido",
+					"Buonny - Buonny Check",
+					"Otimizy - Erpsoft One"
+				],
+				"mrr": 3404,
+				"tempo_cliente": 105,
+				"satisfacao": 3.4
+			},
+			{
+				"id": "CLI175",
+				"nome": "Autopeças Gaúcha",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Autopeças",
+				"porte": "Médio",
+				"produtos": [
+					"Comprovei - Comprovei Enterprise",
+					"Bsoft - Localiza Carga",
+					"nspedágio - Integradores",
+					"RoutEasy - Gestão de Entregas",
+					"Trizy - GPED"
+				],
+				"mrr": 13036,
+				"tempo_cliente": 112,
+				"satisfacao": 4.3
+			},
+			{
+				"id": "CLI176",
+				"nome": "Distribuidora Baiana",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Combustíveis",
+				"porte": "Médio",
+				"produtos": [
+					"Fusion - DMS - Gestão de Entregas",
+					"Trizy - GPED",
+					"qualp",
+					"Hivecloud - AR"
+				],
+				"mrr": 7537,
+				"tempo_cliente": 17,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI177",
+				"nome": "Construção Delta",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Pequeno",
+				"produtos": [
+					"BRK - BRSystem (Cadastro)",
+					"Otimizy - Erpsoft One",
+					"Otimizy - ErpSoft Desktop",
+					"Bsoft - Controle Comercial",
+					"BU VGR - Cadastro Unificado"
+				],
+				"mrr": 4314,
+				"tempo_cliente": 59,
+				"satisfacao": 4.9
+			},
+			{
+				"id": "CLI178",
+				"nome": "Mercearia Super",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Micro",
+				"produtos": [
+					"BRK - BRSystem (Cadastro)",
+					"Bsoft - Controle de Transportadoras",
+					"Buonny - Buonny Check",
+					"Bsoft - One"
+				],
+				"mrr": 630,
+				"tempo_cliente": 28,
+				"satisfacao": 3.8
+			},
+			{
+				"id": "CLI179",
+				"nome": "Auto Posto Mega",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"Bsoft - CTe Prático",
+					"Otimizy - ErpSoft Desktop",
+					"Otimizy - Erpsoft One",
+					"Opentech - Cadastro ",
+					"Bsoft - Controle Comercial",
+					"Datamex - Xml Protegido"
+				],
+				"mrr": 1694,
+				"tempo_cliente": 105,
+				"satisfacao": 3.4
+			},
+			{
+				"id": "CLI180",
+				"nome": "Online Mineira",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "E-commerce",
+				"porte": "Médio",
+				"produtos": [
+					"LogOne - YMS",
+					"Routeasy - Routing"
+				],
+				"mrr": 12161,
+				"tempo_cliente": 53,
+				"satisfacao": 3.5
+			},
+			{
+				"id": "CLI181",
+				"nome": "Proteção Pro",
+				"persona": "Segurador",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Pequeno",
+				"produtos": [
+					"nsre",
+					"nscorr"
+				],
+				"mrr": 4127,
+				"tempo_cliente": 97,
+				"satisfacao": 4.6
+			},
+			{
+				"id": "CLI182",
+				"nome": "Expresso Gaúcha",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Grande",
+				"produtos": [
+					"Opentech - SIL",
+					"Atua - Mais Frete",
+					"Trafegus - Gestão de Riscos - Web",
+					"Trafegus - CAD 4.0",
+					"Buonny - Buonny Log"
+				],
+				"mrr": 97111,
+				"tempo_cliente": 10,
+				"satisfacao": 3.3
+			},
+			{
+				"id": "CLI183",
+				"nome": "Transportes Express",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Médio",
+				"produtos": [
+					"New KMM - LTL"
+				],
+				"mrr": 18475,
+				"tempo_cliente": 69,
+				"satisfacao": 4.7
+			},
+			{
+				"id": "CLI184",
+				"nome": "Auto Ultra",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Autopeças",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Datamex - Xml Protegido",
+					"BU VGR - Cadastro Unificado"
+				],
+				"mrr": 3076,
+				"tempo_cliente": 31,
+				"satisfacao": 4.5
+			},
+			{
+				"id": "CLI185",
+				"nome": "Magazine Alpha",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Médio",
+				"produtos": [
+					"Trizy - GPED",
+					"qualp",
+					"Multisoftware - MultiEmbarcador"
+				],
+				"mrr": 19433,
+				"tempo_cliente": 105,
+				"satisfacao": 3.7
+			},
+			{
+				"id": "CLI186",
+				"nome": "Rodoviário Nordeste",
+				"persona": "Transportador",
+				"torre": "Torre MG",
+				"setor": "Transporte Rodoviário",
+				"porte": "Médio",
+				"produtos": [
+					"Opentech - SIL",
+					"Atua - Mais Frete",
+					"Buonny - Buonny Log",
+					"Trafegus - Gestão de Riscos - Web"
+				],
+				"mrr": 19686,
+				"tempo_cliente": 109,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI187",
+				"nome": "Obras Prime",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Construção",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - TMS",
+					"Datamex - TMS Nacional",
+					"Bsoft - Controle de Transportadoras"
+				],
+				"mrr": 2406,
+				"tempo_cliente": 107,
+				"satisfacao": 4.8
+			},
+			{
+				"id": "CLI188",
+				"nome": "Posto Norte",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"BRK - BRSystem (Cadastro)",
+					"Datamex - Emissor Simples",
+					"Otimizy - Muvly",
+					"Bsoft - Controle de Transportadoras"
+				],
+				"mrr": 1987,
+				"tempo_cliente": 11,
+				"satisfacao": 3.7
+			},
+			{
+				"id": "CLI189",
+				"nome": "Posto Amazônia MEI",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Combustíveis",
+				"porte": "Micro",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"Datamex - TMS Nacional",
+					"Buonny - Buonny Check",
+					"BRK - BRSystem (Cadastro)",
+					"Otimizy - ErpSoft Desktop",
+					"Otimizy - Coleta XML",
+					"Bsoft - Controle de Transportadoras",
+					"Bsoft - One"
+				],
+				"mrr": 771,
+				"tempo_cliente": 45,
+				"satisfacao": 3.2
+			},
+			{
+				"id": "CLI190",
+				"nome": "Corretora Leste MEI",
+				"persona": "Corretor",
+				"torre": "Torre IM",
+				"setor": "Seguros",
+				"porte": "Micro",
+				"produtos": [
+					"nsre",
+					"nscorr"
+				],
+				"mrr": 327,
+				"tempo_cliente": 12,
+				"satisfacao": 3.0
+			},
+			{
+				"id": "CLI191",
+				"nome": "Magazine Cerrado",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"qualp",
+					"Fusion - DMS - Roteirizador",
+					"Fusion - DMS - Jornada de Trabalho",
+					"nspedágio - Conta única",
+					"KMM - Portus (GTP)"
+				],
+				"mrr": 56061,
+				"tempo_cliente": 15,
+				"satisfacao": 3.5
+			},
+			{
+				"id": "CLI192",
+				"nome": "Lanchonete Pro",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Alimentos",
+				"porte": "Pequeno",
+				"produtos": [
+					"Datamex - Xml Protegido",
+					"Bsoft - nsdocs",
+					"Otimizy - ErpSoft Desktop"
+				],
+				"mrr": 1859,
+				"tempo_cliente": 114,
+				"satisfacao": 4.9
+			},
+			{
+				"id": "CLI193",
+				"nome": "Loja de Peças Veloz",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Autopeças",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - nsdocs",
+					"Hivecloud - TMS",
+					"Bsoft - TMS",
+					"Datamex - Emissor Simples",
+					"Atua - Mais CTe",
+					"Bsoft - One"
+				],
+				"mrr": 3721,
+				"tempo_cliente": 110,
+				"satisfacao": 3.2
+			},
+			{
+				"id": "CLI194",
+				"nome": "Loja Nordeste",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Pequeno",
+				"produtos": [
+					"Otimizy - Muvly",
+					"Multisoftware - MultiCTe",
+					"Atua - Mais CTe"
+				],
+				"mrr": 1484,
+				"tempo_cliente": 35,
+				"satisfacao": 4.6
+			},
+			{
+				"id": "CLI195",
+				"nome": "Farmácia Pro",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Farmácia",
+				"porte": "Pequeno",
+				"produtos": [
+					"Hivecloud - MDFe",
+					"Otimizy - Erpsoft One"
+				],
+				"mrr": 4724,
+				"tempo_cliente": 37,
+				"satisfacao": 4.4
+			},
+			{
+				"id": "CLI196",
+				"nome": "Chácara Paulista",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Agronegócio",
+				"porte": "Pequeno",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Pesquisa 4.0",
+					"Otimizy - Coleta XML",
+					"BU VGR - Cadastro Unificado",
+					"Datamex - Xml Protegido",
+					"Bsoft - One"
+				],
+				"mrr": 852,
+				"tempo_cliente": 27,
+				"satisfacao": 3.1
+			},
+			{
+				"id": "CLI197",
+				"nome": "Padaria Leste",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Alimentos",
+				"porte": "Pequeno",
+				"produtos": [
+					"Bsoft - NFe Prático",
+					"Otimizy - Erpsoft One",
+					"Otimizy - Coleta XML",
+					"Otimizy - ErpSoft Desktop",
+					"Datamex - Xml Protegido"
+				],
+				"mrr": 1069,
+				"tempo_cliente": 96,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI198",
+				"nome": "Lojinha Max",
+				"persona": "Embarcador",
+				"torre": "Torre PME",
+				"setor": "Varejo",
+				"porte": "Micro",
+				"produtos": [
+					"Datamex - TMS Nacional",
+					"Hivecloud - TMS",
+					"Bsoft - NFe Prático",
+					"Datamex - Xml Protegido",
+					"Bsoft - One"
+				],
+				"mrr": 481,
+				"tempo_cliente": 120,
+				"satisfacao": 3.6
+			},
+			{
+				"id": "CLI199",
+				"nome": "Granja Atlântica",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Agronegócio",
+				"porte": "Grande",
+				"produtos": [
+					"Bsoft - Localiza Carga",
+					"Signa - e-Cargo Embarcador",
+					"Hivecloud - 3PL",
+					"Datamex - Entreguei",
+					"Comprovei - Comprovei Cargo",
+					"Routeasy - Routing"
+				],
+				"mrr": 120634,
+				"tempo_cliente": 112,
+				"satisfacao": 4.2
+			},
+			{
+				"id": "CLI200",
+				"nome": "Magazine Plus",
+				"persona": "Embarcador",
+				"torre": "Torre Embarcador",
+				"setor": "Varejo",
+				"porte": "Grande",
+				"produtos": [
+					"KMM - GTM ",
+					"Trizy - BID"
+				],
+				"mrr": 120916,
+				"tempo_cliente": 57,
+				"satisfacao": 3.2
+			}
+		]
+	}
+}
