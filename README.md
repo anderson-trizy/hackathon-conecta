@@ -60,9 +60,9 @@ Desenvolver um módulo que recomende produtos aos clientes baseado em:
 ### Tecnologias e Arquitetura
 **Implementação Atual (Hackathon):**
 - **OCI Data Science**: Notebooks Jupyter, model training/deployment, ADS SDK
-- **Oracle Functions**: Serverless Python runtime para API de recomendação  
+- **OCI ML Applications**: Empacotamento e deployment escalável de modelos ML
+- **Oracle Functions**: Serverless Python runtime para lógica de negócio customizada
 - **OCI Generative AI**: Text embeddings e análise semântica de produtos
-- **OCI ML Applications**: Empacotamento e deployment escalável da solução
 - **OCI API Gateway**: Exposição e gerenciamento da API
 - **OCI Object Storage**: Dados, modelos e logs
 - **OCI Monitoring/Logging**: Observabilidade completa
@@ -95,8 +95,9 @@ Desenvolver um módulo que recomende produtos aos clientes baseado em:
    - Análise de padrões de adoção de produtos
    - Matriz de recomendações baseada em ML
 
-5. ⏳ **POC 2: Oracle Function com abstração multicloud**
-   - API de recomendação serverless
+5. ⏳ **POC 2: API híbrida com ML Applications + Oracle Functions**
+   - ML Applications: API de similaridade e scoring de produtos
+   - Oracle Functions: Lógica de negócio e regras customizadas
    - Integração com OCI Generative AI para embeddings
    - Testes de performance e escalabilidade
 
