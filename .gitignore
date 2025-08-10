@@ -1,7 +1,60 @@
+# ========================================
+# NStech Hackathon - Estrutura Completa
+# ========================================
+
 # Ignorar imagens da proposta do hackathon
 imagens-proposta-hackathon/
 *.png
 
+# ========================================
+# ML Engine
+# ========================================
+# Modelos treinados (muito grandes)
+ml-engine/models/*.pkl
+ml-engine/models/*.joblib
+ml-engine/models/*.h5
+
+# Notebooks checkpoints
+ml-engine/notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Dados processados grandes
+data/processed/*.parquet
+data/processed/*.csv
+data/external/large_files/
+
+# ========================================
+# API Backend
+# ========================================
+# Function artifacts
+api/functions/*/dist/
+api/functions/*/.fn/
+
+# ========================================
+# Frontend
+# ========================================
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# ========================================
+# Infrastructure
+# ========================================
+# Terraform
+infrastructure/**/*.tfstate
+infrastructure/**/*.tfstate.*
+infrastructure/**/.terraform/
+infrastructure/**/.terraform.lock.hcl
+
+# ========================================
+# Ambiente e Credenciais
+# ========================================
 # Arquivos temporários
 *.tmp
 *.temp
@@ -12,9 +65,33 @@ Thumbs.db
 .env
 .env.local
 .env.production
+.env.development
 *.key
 *.pem
 
 # Configuração OCI
 .oci/
 .oci/config
+
+# Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/

@@ -1,0 +1,43 @@
+# Configuração do ML Engine
+ml_config:
+  # Algoritmo principal
+  algorithm: "cosine_similarity_multiface"
+
+  # Features utilizadas
+  features:
+    total_count: 47
+    categories:
+      - "demographic"
+      - "behavioral"
+      - "contextual"
+      - "product_affinity"
+
+  # Parâmetros de recomendação
+  recommendation:
+    default_limit: 5
+    max_limit: 20
+    min_score_threshold: 0.1
+    diversity_factor: 0.2
+
+  # Caching
+  cache:
+    similarity_matrix: true
+    recommendations: true
+    ttl_minutes: 60
+
+  # Paths
+  paths:
+    models: "models/"
+    data: "../data/"
+    artifacts: "models/model_artifacts.pkl"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Performance
+performance:
+  parallel_processing: true
+  n_jobs: -1 # Use all available cores
+  batch_size: 1000
