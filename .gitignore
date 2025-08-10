@@ -14,3 +14,6 @@ Thumbs.db
 .env.production
 *.key
 *.pem
+
+# Configuração OCI
+.oci/
