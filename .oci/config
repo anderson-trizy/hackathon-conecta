@@ -1,6 +1,0 @@
-[DEFAULT]
-user=ocid1.user.oc1..aaaaaaaaoarfdvnyrtttvdovamt3dm5qd24ezsud3s5t6f3pk5ggo4wipowa
-fingerprint=d3:28:27:bb:1e:cc:93:c1:ad:a2:a3:df:57:db:2d:c6
-tenancy=ocid1.tenancy.oc1..aaaaaaaadug64zwh6nqh2iyx5wgtmg2pkzb53tsx5bfp2vg2irsgsbo6wgvq
-region=us-chicago-1
-key_file=C:\Users\anderson.marcondes\Documents\dev\hackathon-conecta\.oci\private_key.pem

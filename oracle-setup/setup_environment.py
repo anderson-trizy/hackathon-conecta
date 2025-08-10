@@ -29,16 +29,16 @@ def create_sample_oci_config():
     oci_dir = Path.home() / ".oci"
     oci_dir.mkdir(exist_ok=True)
     
-    config_content = """[DEFAULT]
-user=ocid1.user.oc1..your-user-id
-fingerprint=your-fingerprint
+    config_content = f"""[DEFAULT]
+user={os.getenv('OCI_USER_ID')}
+fingerprint={os.getenv('OCI_FINGERPRINT')}
 key_file=~/.oci/private_key.pem
-tenancy=ocid1.tenancy.oc1..your-tenancy-id
-region=us-ashburn-1
-compartment_id=ocid1.compartment.oc1..your-compartment-id
+tenancy={os.getenv('OCI_TENANCY_ID')}
+region={os.getenv('OCI_REGION')}
+compartment_id={os.getenv('OCI_COMPARTMENT_ID')}
 
 # 🔧 INSTRUÇÕES:
-# 1. Substitua os valores acima pelos seus reais
+# 1. Configure as variáveis de ambiente: OCI_USER_ID, OCI_FINGERPRINT, OCI_TENANCY_ID, OCI_REGION, OCI_COMPARTMENT_ID
 # 2. Baixe sua chave privada do OCI Console
 # 3. Salve a chave em ~/.oci/private_key.pem
 # 4. Execute: chmod 600 ~/.oci/private_key.pem (Linux/Mac)
@@ -53,55 +53,73 @@ compartment_id=ocid1.compartment.oc1..your-compartment-id
     else:
         print(f"✅ Arquivo de configuração OCI já existe: {config_path}")
 
+def install_basic_packages():
+    """Instala pacotes básicos necessários em qualquer ambiente"""
+    
+    # Poderia remover matplotlib, seaborn, pandas-profiling, que estão no oracle-ads[viz], 
+    # mas ocorreu erro ao executar no OCI e então voltamos para oracle-ads)
+    basic_packages = [
+        "pandas>=1.5.0",
+        "numpy>=1.21.0", 
+        "scikit-learn>=1.1.0",
+        "matplotlib", 
+        "seaborn", 
+        "plotly"
+    ]
+    
+    print("📦 Instalando dependências básicas...")
+    success = True
+    for package in basic_packages:
+        if not install_package(package):
+            success = False
+    return success
+
 def setup_local_environment():
     """Configura ambiente local"""
     print("🏠 CONFIGURANDO AMBIENTE LOCAL")
     print("="*40)
     
-    # Dependências básicas
-    basic_packages = [
-        "pandas>=1.5.0",
-        "numpy>=1.21.0", 
-        "scikit-learn>=1.1.0",
-        "matplotlib>=3.5.0",
-        "seaborn>=0.11.0"
-    ]
-    
-    print("📦 Instalando dependências básicas...")
-    for package in basic_packages:
-        install_package(package)
-    
-    print("\n✅ Ambiente local configurado com sucesso!")
-    print("   Para usar: USE_OCI = False no notebook")
+    if install_basic_packages():
+        print("\n✅ Ambiente local configurado com sucesso!")
+        print("   Para usar: USE_OCI = False no notebook")
 
 def setup_oci_environment():
     """Configura ambiente OCI"""
     print("☁️  CONFIGURANDO AMBIENTE OCI")
     print("="*40)
     
-    # Dependências OCI
-    oci_packages = [
-        "oracle-ads",
-        "oci",
-        "oci-cli"
-    ]
+    # Detectar se estamos no OCI Data Science
+    is_oci_datascience = os.environ.get('OCI_RESOURCE_PRINCIPAL_VERSION') is not None
     
-    print("📦 Instalando dependências OCI...")
+    # Instalar básicos primeiro
+    if not install_basic_packages():
+        print("❌ Erro ao instalar dependências básicas")
+        return
+    
+    # Instalar oracle-ads[viz] e oci
+    oci_packages = ['oracle-ads', "oci"]
+    
+    print("\n📦 Instalando dependências específicas do OCI (inclui visualização)...")
     success = True
     for package in oci_packages:
         if not install_package(package):
             success = False
     
     if success:
-        print("\n📄 Configurando credenciais OCI...")
-        if check_oci_config():
-            print("✅ Configuração OCI encontrada")
+        if is_oci_datascience:
+            print("\n☁️  MODO OCI DATA SCIENCE DETECTADO")
+            print("✅ Autenticação automática via Resource Principal")
+            print("✅ Não é necessário configurar credenciais!")
         else:
-            create_sample_oci_config()
+            print("\n🏠 MODO LOCAL - Configurando credenciais...")
+            if check_oci_config():
+                print("✅ Configuração OCI encontrada")
+            else:
+                create_sample_oci_config()
+            print("   📝 Não esqueça de editar ~/.oci/config com suas credenciais!")
         
         print("\n✅ Ambiente OCI configurado com sucesso!")
         print("   Para usar: USE_OCI = True no notebook")
-        print("   📝 Não esqueça de editar ~/.oci/config com suas credenciais!")
     else:
         print("\n❌ Erro na configuração OCI")
         print("   Verifique sua conexão de internet e tente novamente")
