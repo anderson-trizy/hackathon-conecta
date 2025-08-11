@@ -93,5 +93,8 @@ __pycache__/
 logs/
 
 # Cache
+cache/
 .cache/
 .pytest_cache/
+
+*temp.py
