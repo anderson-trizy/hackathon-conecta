@@ -52,29 +52,54 @@ hackathon-conecta/
 
 ### 🚀 Quick Start
 
-#### 1. **Setup do Ambiente OCI**
+#### **Início Automático (Recomendado)**
+
+**Windows (PowerShell):**
 ```bash
-# Siga o guia completo
-docs/SETUP_OCI.md
+# Clone e execute
+git clone https://github.com/anderson-trizy/hackathon-conecta.git
+cd hackathon-conecta
+.\start.ps1
 ```
 
-#### 2. **ML Engine (Desenvolvimento)**
+**Linux/macOS:**
 ```bash
-cd ml-engine
+# Clone e execute  
+git clone https://github.com/anderson-trizy/hackathon-conecta.git
+cd hackathon-conecta
+chmod +x start.sh
+./start.sh
+```
+
+#### **Acessar Aplicação:**
+- **Frontend**: http://localhost:3001
+- **API Backend**: http://localhost:8000  
+- **Documentação**: http://localhost:8000/docs
+
+#### **Setup Manual (Desenvolvimento)**
+
+**1. ML Engine & API:**
+```bash
+# Criar ambiente virtual
+python -m venv .venv
+
+# Ativar ambiente virtual (Windows)
+.\.venv\Scripts\Activate.ps1
+
+# Ativar ambiente virtual (Linux/macOS)
+source .venv/bin/activate
+
+# Instalar dependências
 pip install -r requirements.txt
-jupyter notebook notebooks/nstech_recommendation_poc1.ipynb
-```
 
-#### 3. **API (Produção)**
-```bash
+# Executar API
 cd api
-# Deploy Oracle Functions
-fn deploy --app nstech-recommendations
+python main.py
 ```
 
-#### 4. **Frontend (Interface)**
+**2. Frontend:**
 ```bash
-cd frontend
+cd recommendation-microfrontend
 npm install
 npm run dev
 ```
@@ -174,6 +199,96 @@ GET /api/v1/recommendations/CLI123
 - [ ] Monitoring e alertas
 - [ ] Performance optimization
 - [ ] Documentation completa
+
+### 🛠️ Scripts Disponíveis
+
+| Script | Descrição | Uso |
+|--------|-----------|-----|
+| `start.ps1` | Instala dependências e inicia ambos serviços (Windows) | `.\start.ps1` |
+| `start.sh` | Instala dependências e inicia ambos serviços (Linux/macOS) | `./start.sh` |
+| `setup.ps1` | Apenas instala dependências (Windows) | `.\setup.ps1` |
+
+### 🌿 Estratégia de Branches e Convenções
+
+#### **Estrutura de Branches**
+```
+main (produção estável - sempre demo-ready)
+├── develop (integração contínua - trabalho ativo)  
+├── feature/nome-da-funcionalidade (desenvolvimento de features)
+├── hotfix/nome-do-bug (correções urgentes)
+└── release/vX.X.X (preparação de releases)
+```
+
+#### **Fluxo de Trabalho**
+1. **Nova Feature**: `develop` → `feature/nome` → desenvolver → PR para `develop`
+2. **Bug Crítico**: `main` → `hotfix/nome` → corrigir → PR para `main` e `develop`
+3. **Release**: `develop` → `release/vX.X.X` → testes finais → merge para `main`
+
+#### **Convenções de Nomenclatura**
+
+**Branches:**
+```bash
+feature/api-recommendations-v2       # Nova funcionalidade
+feature/frontend-dashboard          # Interface
+feature/ml-algorithm-optimization   # Melhorias ML
+feature/docker-setup                # Infraestrutura
+hotfix/cors-api-fix                 # Correção crítica
+hotfix/memory-leak-frontend         # Bug em produção
+release/v1.0.0                      # Preparação de release
+```
+
+**Commits (Conventional Commits):**
+```bash
+feat: adiciona nova funcionalidade de recomendações
+fix: corrige bug de CORS na API
+docs: atualiza documentação do setup
+style: formata código seguindo padrões
+refactor: otimiza algoritmo de similaridade  
+test: adiciona testes unitários para API
+chore: atualiza dependências do projeto
+```
+
+#### **Regras de Merge**
+- **`main`**: Apenas via Pull Request com revisão
+- **`develop`**: Pull Request recomendado (flexível para o hackathon)
+- **Features**: Commits diretos permitidos durante desenvolvimento
+
+#### **Proteções de Branch**
+- **`main`**: Protegida - sempre estável para demonstrações
+- **`develop`**: Semi-protegida - pode ter bugs menores
+- **Features**: Livres para experimentação
+
+### 🐛 Solução de Problemas
+
+#### **Porta já em uso**
+```bash
+# Windows
+netstat -ano | findstr :3001
+netstat -ano | findstr :8000
+taskkill /PID <PID> /F
+
+# Linux/macOS  
+lsof -ti:3001 | xargs kill
+lsof -ti:8000 | xargs kill
+```
+
+#### **Problemas com ambiente virtual**
+```bash
+# Recriar ambiente virtual
+rm -rf .venv  # ou Remove-Item .venv -Recurse -Force (Windows)
+python -m venv .venv
+```
+
+#### **Dependências não instaladas**
+```bash
+# Usar script de setup apenas
+.\setup.ps1        # Windows
+chmod +x setup.sh && ./setup.sh  # Linux/macOS (se criar)
+```
+
+#### **Problemas de CORS**
+- Verifique se a API está rodando na porta 8000
+- Confirme que o frontend está configurado para a URL correta da API
 
 ### 🎯 Casos de Uso para Recomendação
 
