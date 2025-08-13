@@ -6,6 +6,8 @@ export interface RecommendationProduct {
 	category: string;
 	segment: string;
 	isCompanyRecommended?: boolean;
+	isManualRecommendation?: boolean;
+	manualRecommendationType?: "CLIENTE" | "PERSONA" | "TORRE";
 	similarCompaniesCount?: number;
 	benefits?: string[];
 	image?: string;
@@ -55,4 +57,24 @@ export interface RecommendationResponse {
 	features_used?: string;
 	scoring?: string;
 	status?: string;
+}
+
+// Interface para recomendações manuais do Oracle APEX
+export interface ManualRecommendationItem {
+	id: number;
+	nome: string;
+	createdat: string;
+	tiporecomendacao: "CLIENTE" | "PERSONA" | "TORRE";
+}
+
+export interface ManualRecommendationResponse {
+	items: ManualRecommendationItem[];
+	hasMore: boolean;
+	limit: number;
+	offset: number;
+	count: number;
+	links: Array<{
+		rel: string;
+		href: string;
+	}>;
 }
