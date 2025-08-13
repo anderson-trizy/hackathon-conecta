@@ -1,4 +1,4 @@
-import { ArrowRight, Building2, Calendar, Loader2, Users, Star } from 'lucide-react'
+import { ArrowRight, Building2, Calendar, Loader2, Users, Star, MessageCircle } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { RecommendationService } from '../services/recommendationService'
 import { RecommendationProduct, ManualRecommendationItem } from '../types/recommendation'
@@ -232,8 +232,15 @@ export function RecommendationWidget({
   }
 
   const handleScheduleMeeting = (productName: string) => {
-    console.log(`Agendando reunião para produto: ${productName}`)
-    // Integração futura com sistema de agendamento
+    console.log(`🗓️ Abrindo agendamento para produto: ${productName}`)
+    // Abrir Cal.com em nova aba
+    window.open('https://cal.com/andersonmarcondes.nstech', '_blank')
+  }
+
+  const handleContactSpecialist = () => {
+    console.log(`📞 Abrindo WhatsApp para contato com especialista`)
+    // Abrir WhatsApp em nova aba
+    window.open('http://wa.me/5521980857984', '_blank')
   }
 
   const handleViewDetails = (product: RecommendationProduct) => {
@@ -470,8 +477,13 @@ export function RecommendationWidget({
           <p className="text-sm text-muted-foreground mb-4">
             Quer uma análise personalizada das soluções ideais para sua empresa?
           </p>
-          <Button variant="outline" size="lg" className="bg-background">
-            <Calendar className="w-4 h-4 mr-2" />
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="bg-background"
+            onClick={handleContactSpecialist}
+          >
+            <MessageCircle className="w-4 h-4 mr-2" />
             Falar com Consultor Especializado
           </Button>
         </div>
