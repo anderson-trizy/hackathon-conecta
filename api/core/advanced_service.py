@@ -7,7 +7,7 @@ Usa CORE ENGINE (cloud-agnostic)
 from typing import List, Dict, Any, Optional
 from datetime import datetime
 
-from api.adapters.interfaces import DataSourceInterface, StorageInterface
+from adapters.interfaces import DataSourceInterface, StorageInterface
 from .advanced_engine import AdvancedMLEngine
 
 
