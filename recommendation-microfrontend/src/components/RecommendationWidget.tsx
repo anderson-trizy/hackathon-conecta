@@ -1,7 +1,7 @@
-import { ArrowRight, Building2, Calendar, Loader2, TrendingUp, Users } from 'lucide-react'
+import { ArrowRight, Building2, Calendar, Loader2, Users, Star } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { RecommendationService } from '../services/recommendationService'
-import { RecommendationProduct } from '../types/recommendation'
+import { RecommendationProduct, ManualRecommendationItem } from '../types/recommendation'
 import { ProductDetailModal } from './ProductDetailModal'
 import { Badge } from './ui/badge'
 import { Button } from './ui/button'
@@ -78,61 +78,153 @@ export function RecommendationWidget({
     try {
       setLoading(true)
       setError(null)
-      const response = await RecommendationService.getRecommendations(clientId, 3) // Reduzido para 3 recomendações
       
-      // Transformar dados da API para o formato esperado pelo componente
-      const transformedProducts: RecommendationProduct[] = response.recommendations.map((rec: any, index) => ({
-        id: rec.id || `product-${index}`,
-        name: rec.product_name || rec.name || 'Produto Sem Nome',
-        description: rec.description || `${rec.reason || 'Solução recomendada com base em análise de empresas similares'}. Score de confiança: ${((rec.confidence || 0) * 100).toFixed(1)}%`,
-        score: rec.confidence || rec.score || 0,
-        category: rec.category || 'Categoria não informada',
-        segment: rec.segment || 'Segmento não informado',
-        isCompanyRecommended: index === 0, // Primeiro produto é sempre recomendado
-        similarCompaniesCount: Math.floor(Math.random() * 50) + 10, // Mock temporário
-        benefits: [
-          'Redução de custos operacionais',
-          'Aumento de produtividade',
-          'Integração com sistemas existentes'
-        ], // Mock temporário
-        image: '', // Não vamos usar mais imagem externa
-        detailedDescription: `${rec.description} Esta solução foi desenvolvida especificamente para empresas do seu segmento, oferecendo integração completa com sistemas existentes e suporte especializado 24/7.`,
-        keyFeatures: [
-          'Dashboard executivo com métricas em tempo real',
-          'Integração nativa com principais ERPs do mercado', 
-          'Relatórios customizáveis e automáticos',
-          'API robusta para integrações personalizadas',
-          'Suporte técnico especializado 24/7'
-        ],
-        technicalSpecs: [
-          { label: 'Tempo de implementação', value: '2-4 semanas' },
-          { label: 'Integrações disponíveis', value: '50+ sistemas' },
-          { label: 'Uptime garantido', value: '99.9%' },
-          { label: 'Suporte técnico', value: '24/7 em português' }
-        ],
-        successStories: [
-          {
-            companyName: 'TechCorp Solutions',
-            industry: 'Tecnologia',
-            result: 'Redução de 45% no tempo de processamento',
-            metric: 'ROI: 280%',
-            testimonial: 'A implementação superou nossas expectativas. Em 3 meses já víamos resultados significativos na produtividade da equipe.',
-            contactName: 'Carlos Silva',
-            contactRole: 'CTO'
-          }
-        ],
-        resources: [
-          {
-            type: 'pdf',
-            title: 'Guia Completo da Solução',
-            description: 'Documento técnico com todas as funcionalidades',
-            url: '/resources/guia-completo.pdf'
-          }
-        ]
-      }))
+      console.log(`🔄 Carregando recomendações para cliente: ${clientId}`)
       
-      setProducts(transformedProducts)
+      // Buscar recomendações manuais e automáticas em paralelo
+      const [manualResponse, autoResponse] = await Promise.allSettled([
+        RecommendationService.getManualRecommendations(clientId),
+        RecommendationService.getRecommendations(clientId, 5)
+      ])
+      
+      console.log('📋 Resultado recomendações manuais:', manualResponse)
+      console.log('🤖 Resultado recomendações automáticas:', autoResponse)
+      
+      // Processar recomendações manuais
+      let manualProducts: RecommendationProduct[] = []
+      if (manualResponse.status === 'fulfilled' && manualResponse.value.items.length > 0) {
+        console.log('✅ Recomendações manuais encontradas:', manualResponse.value.items)
+        
+        // Aplicar prioridade: CLIENTE > PERSONA > TORRE
+        const priorityOrder = { 'CLIENTE': 1, 'PERSONA': 2, 'TORRE': 3 }
+        const sortedManualItems = manualResponse.value.items.sort((a, b) => 
+          priorityOrder[a.tiporecomendacao] - priorityOrder[b.tiporecomendacao]
+        )
+        
+        // Pegar apenas o primeiro item (maior prioridade)
+        const topManualItem = sortedManualItems[0]
+        console.log('⭐ Recomendação manual selecionada:', topManualItem)
+        
+        manualProducts = [{
+          id: `manual-${topManualItem.id}`,
+          name: topManualItem.nome,
+          description: `Recomendação ${topManualItem.tiporecomendacao.toLowerCase()} personalizada. Esta solução foi especificamente selecionada para atender às necessidades identificadas em sua empresa.`,
+          score: 1.0, // Score máximo para recomendações manuais
+          category: 'Recomendação Personalizada',
+          segment: 'Seleção Manual',
+          isManualRecommendation: true,
+          manualRecommendationType: topManualItem.tiporecomendacao,
+          isCompanyRecommended: false, // Não mostra badge "Recomendado" comum
+          similarCompaniesCount: Math.floor(Math.random() * 50) + 10,
+          benefits: [
+            'Recomendação personalizada',
+            'Adequado ao seu perfil',
+            'Suporte especializado'
+          ],
+          image: '',
+          detailedDescription: `Esta solução foi especificamente recomendada com base na análise ${topManualItem.tiporecomendacao.toLowerCase()} da sua empresa. Oferece integração completa e suporte especializado para garantir o máximo aproveitamento da tecnologia.`,
+          keyFeatures: [
+            'Implementação personalizada para seu caso de uso',
+            'Treinamento especializado da equipe',
+            'Suporte dedicado durante toda a implantação',
+            'Configuração específica para sua empresa',
+            'Acompanhamento de resultados pós-implantação'
+          ],
+          technicalSpecs: [
+            { label: 'Tempo de implementação', value: '1-3 semanas' },
+            { label: 'Personalização', value: '100% customizável' },
+            { label: 'Suporte dedicado', value: 'Sim, incluído' },
+            { label: 'Treinamento', value: 'Incluso no pacote' }
+          ],
+          successStories: [
+            {
+              companyName: 'Empresa Similar',
+              industry: 'Mesmo Segmento',
+              result: 'Aumento de 60% na eficiência',
+              metric: 'ROI: 320%',
+              testimonial: 'A recomendação personalizada foi fundamental para o sucesso do projeto. A implementação foi muito mais rápida do que esperávamos.',
+              contactName: 'Gestor de Projetos',
+              contactRole: 'Gerente de TI'
+            }
+          ],
+          resources: [
+            {
+              type: 'pdf',
+              title: 'Proposta Personalizada',
+              description: 'Documento com recomendação específica para sua empresa',
+              url: '/resources/proposta-personalizada.pdf'
+            }
+          ]
+        }]
+      } else {
+        console.log('❌ Nenhuma recomendação manual encontrada ou erro:', manualResponse)
+      }
+      
+      // Processar recomendações automáticas
+      let autoProducts: RecommendationProduct[] = []
+      if (autoResponse.status === 'fulfilled') {
+        console.log('🤖 Processando recomendações automáticas:', autoResponse.value.recommendations)
+        autoProducts = autoResponse.value.recommendations.map((rec: any, index) => ({
+          id: rec.id || `product-${index}`,
+          name: rec.product_name || rec.name || 'Produto Sem Nome',
+          description: rec.description || `${rec.reason || 'Solução recomendada com base em análise de empresas similares'}. Score de confiança: ${((rec.confidence || 0) * 100).toFixed(1)}%`,
+          score: rec.confidence || rec.score || 0,
+          category: rec.category || 'Categoria não informada',
+          segment: rec.segment || 'Segmento não informado',
+          isCompanyRecommended: index === 0 && manualProducts.length === 0, // Primeiro produto só é recomendado se não houver manual
+          isManualRecommendation: false,
+          similarCompaniesCount: Math.floor(Math.random() * 50) + 10,
+          benefits: [
+            'Redução de custos operacionais',
+            'Aumento de produtividade',
+            'Integração com sistemas existentes'
+          ],
+          image: '',
+          detailedDescription: `${rec.description} Esta solução foi desenvolvida especificamente para empresas do seu segmento, oferecendo integração completa com sistemas existentes e suporte especializado 24/7.`,
+          keyFeatures: [
+            'Dashboard executivo com métricas em tempo real',
+            'Integração nativa com principais ERPs do mercado', 
+            'Relatórios customizáveis e automáticos',
+            'API robusta para integrações personalizadas',
+            'Suporte técnico especializado 24/7'
+          ],
+          technicalSpecs: [
+            { label: 'Tempo de implementação', value: '2-4 semanas' },
+            { label: 'Integrações disponíveis', value: '50+ sistemas' },
+            { label: 'Uptime garantido', value: '99.9%' },
+            { label: 'Suporte técnico', value: '24/7 em português' }
+          ],
+          successStories: [
+            {
+              companyName: 'TechCorp Solutions',
+              industry: 'Tecnologia',
+              result: 'Redução de 45% no tempo de processamento',
+              metric: 'ROI: 280%',
+              testimonial: 'A implementação superou nossas expectativas. Em 3 meses já víamos resultados significativos na produtividade da equipe.',
+              contactName: 'Carlos Silva',
+              contactRole: 'CTO'
+            }
+          ],
+          resources: [
+            {
+              type: 'pdf',
+              title: 'Guia Completo da Solução',
+              description: 'Documento técnico com todas as funcionalidades',
+              url: '/resources/guia-completo.pdf'
+            }
+          ]
+        }))
+      } else {
+        console.log('❌ Erro ao carregar recomendações automáticas:', autoResponse)
+      }
+      
+      // Combinar recomendações: manual primeiro, depois automáticas (limitando a 3 total)
+      const allProducts = [...manualProducts, ...autoProducts].slice(0, 3)
+      console.log('🎯 Produtos finais:', allProducts)
+      setProducts(allProducts)
+      
     } catch (err) {
+      console.error('💥 Erro geral ao carregar recomendações:', err)
       setError(err instanceof Error ? err.message : 'Erro ao carregar recomendações')
     } finally {
       setLoading(false)
@@ -192,7 +284,10 @@ export function RecommendationWidget({
             <div>
               <h2 className="text-2xl font-bold text-foreground mb-2">{title}</h2>
               <p className="text-muted-foreground text-base max-w-2xl">
-                {subtitle}. Encontradas {products.length} soluções personalizadas para o cliente {clientId}.
+                {products.some(p => p.isManualRecommendation) 
+                  ? `Recomendação personalizada selecionada especialmente para o cliente ${clientId}, complementada por ${products.filter(p => !p.isManualRecommendation).length} soluções baseadas em análise de mercado.`
+                  : `${subtitle}. Encontradas ${products.length} soluções personalizadas para o cliente ${clientId}.`
+                }
               </p>
             </div>
           </div>
@@ -261,11 +356,11 @@ export function RecommendationWidget({
                     }
                   })()}
 
-                  {/* Company Recommendation Badge */}
-                  {product.isCompanyRecommended && (
+                  {/* Manual Recommendation Badge - Exclusivo para recomendações manuais */}
+                  {product.isManualRecommendation && (
                     <div className="absolute top-4 left-4">
-                      <Badge className="bg-primary text-primary-foreground text-xs font-medium">
-                        <TrendingUp className="w-3 h-3 mr-1" />
+                      <Badge className="bg-gradient-to-r from-yellow-500 to-orange-500 text-white text-xs font-medium shadow-lg">
+                        <Star className="w-3 h-3 mr-1 fill-current" />
                         Recomendado
                       </Badge>
                     </div>
@@ -296,13 +391,25 @@ export function RecommendationWidget({
 
                 {/* Content */}
                 <div className="p-6 space-y-4">
-                  {/* Category */}
-                  <div className="flex items-center gap-2">
+                  {/* Category and Manual Recommendation Type */}
+                  <div className="flex items-center gap-2 flex-wrap">
                     <div className="text-xs text-muted-foreground font-medium uppercase tracking-wide">
                       {product.category}
                     </div>
-                    <div className="w-1 h-1 bg-muted-foreground rounded-full"></div>
-                    <div className="text-xs text-muted-foreground">{product.segment}</div>
+                    {product.isManualRecommendation && product.manualRecommendationType && (
+                      <>
+                        <div className="w-1 h-1 bg-muted-foreground rounded-full"></div>
+                        <Badge variant="outline" className="text-xs bg-yellow-50 text-yellow-700 border-yellow-200">
+                          Tipo: {product.manualRecommendationType}
+                        </Badge>
+                      </>
+                    )}
+                    {!product.isManualRecommendation && (
+                      <>
+                        <div className="w-1 h-1 bg-muted-foreground rounded-full"></div>
+                        <div className="text-xs text-muted-foreground">{product.segment}</div>
+                      </>
+                    )}
                   </div>
 
                   {/* Product Name */}
