@@ -1,0 +1,1042 @@
+[
+  {
+    "airtable_id": "recoxWFftbDV8rJ2j",
+    "nome": "Trizy - TSM",
+    "quantidade_clientes": 91,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recevef4HzYuwPEhv",
+    "nome": "Fusion - DMS - Gestão de Entregas",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "rec2pLly0gMUPy2PG",
+    "nome": "Fusion - DMS - Jornada de Trabalho",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recsBilSMZlj83JDB",
+    "nome": "Fusion - DMS - Roteirizador",
+    "quantidade_clientes": 780,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recOSFBhSCGl1xgHN",
+    "nome": "Frete Rápido - Shippon",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recE8n1QFewLfbzP2",
+    "nome": "Bsoft - Localiza Carga",
+    "quantidade_clientes": 174,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recrontaNssy0OChu",
+    "nome": "Comprovei - Comprovei Cargo",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recArdwVu8Tq4PsuE",
+    "nome": "Comprovei - Comprovei Enterprise",
+    "quantidade_clientes": 91,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recoaYjQ5943PziII",
+    "nome": "Datamex - Entreguei",
+    "quantidade_clientes": 41,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recr1OAz18CTCVPH2",
+    "nome": "Hivecloud - AR",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Descontinuado",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recD61ilwc60UqIcd",
+    "nome": "RoutEasy - Gestão de Entregas",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recMeR3xRn81cWvCL",
+    "nome": "Trizy - GPED",
+    "quantidade_clientes": 3,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recmW1NEhl2fLu4zm",
+    "nome": "Hub de Oferta de cargas",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recThUq3e4uUnE53M",
+    "nome": "Multisoftware - Roteirizador",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "rec9ErqgLCkMZBzrG",
+    "nome": "RoutEasy - Maestro",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recZusC0D3lk8LFSe",
+    "nome": "Routeasy - Routing",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recdNdUY6uOO8NnIh",
+    "nome": "nspedágio - Conta única",
+    "quantidade_clientes": 350,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recS2DgwJElzhiC7j",
+    "nome": "nspedágio - Integradores",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "rec3fKcvsFZmtcf1a",
+    "nome": "qualp",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "rec2u89iGeX8Yml3I",
+    "nome": "Trizy - Fretes",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recoef5ckmzbwHSKh",
+    "nome": "Trizy - Super App",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recJr4Q7tL7DLT7dj",
+    "nome": "Hivecloud - 3PL",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recOI7qNUlJQaARg1",
+    "nome": "Multisoftware - MultiEmbarcador",
+    "quantidade_clientes": 136,
+    "classificacao_bcg": "Estabilização",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recbeTpPvTjW8h31e",
+    "nome": "Signa - e-Cargo Embarcador",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recqopmys4Y4rJzin",
+    "nome": "Frete Rápido - Gestão de Fretes",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recD5m32jnp6pzND1",
+    "nome": "Multi - Torre de Controle",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Estabilização",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recZJCOo0EDYAt2mn",
+    "nome": "Datamex - WMS",
+    "quantidade_clientes": 50,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recBNWmPOZErvGASa",
+    "nome": "KMM - Portus (GTP)",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "rec7ufYHeSfOOl7V1",
+    "nome": "WMS - Locus",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recYffBXXW0tWYHPB",
+    "nome": "GBM - TOT",
+    "quantidade_clientes": 31,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recnjrMb2Hepmb6x2",
+    "nome": "KMM - Flow TOS/Automação",
+    "quantidade_clientes": 23,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recWVGAvpaiZgtJPH",
+    "nome": "KMM - GTM ",
+    "quantidade_clientes": 8,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "rec8rQG0OLxhDE3w6",
+    "nome": "KMM - GUM",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recERn8KQ3TBd5tFH",
+    "nome": "KMM - Novo YMS (.Net)",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recwqYSrTebfXogSV",
+    "nome": "KMM - Novo YMS (PHP)",
+    "quantidade_clientes": 2,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "reccfKbuSZ8B7hrAo",
+    "nome": "KMM - Rota Certa",
+    "quantidade_clientes": 11,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recUGqNa6cxNA3VEk",
+    "nome": "KMM - SAAGRA",
+    "quantidade_clientes": 7,
+    "classificacao_bcg": "Maduro",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recVB6vDYJcHOtReH",
+    "nome": "LogOne - YMS",
+    "quantidade_clientes": 2,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "reccsdZAGu3g0OaJw",
+    "nome": "Trizy - B3",
+    "quantidade_clientes": 36,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recV7vf3ntR56u2dC",
+    "nome": "Trizy - BID",
+    "quantidade_clientes": 7,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "receDB0o8GNtgANCv",
+    "nome": "Trizy - Cargas (Legado)",
+    "quantidade_clientes": 11,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recMzunUjbIhARC6k",
+    "nome": "Trizy - Classificador",
+    "quantidade_clientes": 1,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "receR41xf8uemy1XT",
+    "nome": "Trizy - Novo Cargas",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 0,
+    "torre_id": 1
+  },
+  {
+    "airtable_id": "recAgzivdv25mqDUJ",
+    "nome": "Gasola",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 0,
+    "torre_id": 2
+  },
+  {
+    "airtable_id": "recut74NCdhyj5gTN",
+    "nome": "efrete - Pagamento Eletrônico de Frete",
+    "quantidade_clientes": 129,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 2
+  },
+  {
+    "airtable_id": "recWArcr2kFcBYgW0",
+    "nome": "efrete - PEF - Credenciado",
+    "quantidade_clientes": 968,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 2
+  },
+  {
+    "airtable_id": "recjI7JhnKno3v4k9",
+    "nome": "efrete - PEF - Licença de Integração",
+    "quantidade_clientes": 1173,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 2
+  },
+  {
+    "airtable_id": "recJtNHeVeAtnrenZ",
+    "nome": "efrete - Conta Digital PF",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 1,
+    "torre_id": 2
+  },
+  {
+    "airtable_id": "reclwv65CH1ZtVagS",
+    "nome": "efrete - Conta Digital PJ",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 1,
+    "torre_id": 2
+  },
+  {
+    "airtable_id": "recUNe9USEV7kWAOz",
+    "nome": "nsflow",
+    "quantidade_clientes": 9,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 1,
+    "torre_id": 2
+  },
+  {
+    "airtable_id": "recq361hkYBmhiJLN",
+    "nome": "nscorr",
+    "quantidade_clientes": 16,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 1,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "rectIaVkpVoG4BugH",
+    "nome": "CIR",
+    "quantidade_clientes": 9,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "recjqqjbIPRh5oQDa",
+    "nome": "nsre",
+    "quantidade_clientes": 2,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "recNX8mAzVHvIFgz8",
+    "nome": "SGE",
+    "quantidade_clientes": 2,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "recdd75tlfJr4gb65",
+    "nome": "nsseg - Averbação",
+    "quantidade_clientes": 21,
+    "classificacao_bcg": "Maduro",
+    "is_produto_alvo": 1,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "reccwMa49iam10Hft",
+    "nome": "nsseg - Avulsa",
+    "quantidade_clientes": 1,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 0,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "recdbEGm4gJdwcQQC",
+    "nome": "nsseg - Cotação (SSC)",
+    "quantidade_clientes": 2,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 0,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "rec6D4eBPwJsqsQxL",
+    "nome": "nsseg - Faturamento (CIT)",
+    "quantidade_clientes": 20,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "recbZ4gUm8QDCNxLI",
+    "nome": "nsseg - Faturamento (CITWEB)",
+    "quantidade_clientes": 2,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "recdZiuGp1GYkEttk",
+    "nome": "nsseg - Jornada de Cotação",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 1,
+    "torre_id": 3
+  },
+  {
+    "airtable_id": "rec8ugcJrBxhgiZZL",
+    "nome": "ATSlog - ATSguard",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recdPnKq1R6grrC6w",
+    "nome": "ATSlog - ATSguiarh",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 1,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recP7FlHfbFpr66Jp",
+    "nome": "ATSlog - ATSguiarh light web",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recz0iDne09Wb2jW8",
+    "nome": "ATSlog - Jornada Assistida",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recAPu6Q2wR3qH7Ht",
+    "nome": "Trafegus - Jornada",
+    "quantidade_clientes": 15,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recyPKT5OX9W29cLU",
+    "nome": "KMM - nskote",
+    "quantidade_clientes": 796,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recUIWQvjT7wCtLcm",
+    "nome": "Multisoftware - MultiCabotagem",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Estabilização",
+    "is_produto_alvo": 1,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recf7aS4MG2pBOB3i",
+    "nome": "Signa - e-Cargo Cabotagem",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "rec1F0r4698HDnWkF",
+    "nome": "Atua - Mais Frete",
+    "quantidade_clientes": 1434,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "reckfZf85Uote8fZJ",
+    "nome": "Avacorp",
+    "quantidade_clientes": 97,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recMBKJcBwLBbOvSE",
+    "nome": "Avacorp-i",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recN2yhB9NeH9GoFO",
+    "nome": "KMM - TMS Enterprise & Corporate",
+    "quantidade_clientes": 53,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "rec0zfjhq9S74U0T9",
+    "nome": "KMM - TMS Essentials",
+    "quantidade_clientes": 29,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "rechRCoMNIuURlIRP",
+    "nome": "New KMM",
+    "quantidade_clientes": 26,
+    "classificacao_bcg": "Estabilização",
+    "is_produto_alvo": 1,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recEQgwHa5CeJokO2",
+    "nome": "New KMM - LTL",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 1,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "rec6mRavEt8oM6OKA",
+    "nome": "Praxio - Globus Cargas",
+    "quantidade_clientes": 106,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recTMVWahd0A2cBdE",
+    "nome": "Signa - e-Cargo TMS",
+    "quantidade_clientes": 17,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recyrAayr7XWJUCy5",
+    "nome": "ATSlog - ATSsiga",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "rechoBpO57fn7qQAQ",
+    "nome": "ATSlog - ATSsiga Smartweb",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 4
+  },
+  {
+    "airtable_id": "recUMO8QKb7lFEMty",
+    "nome": "Praxio - Luna",
+    "quantidade_clientes": 87,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 5
+  },
+  {
+    "airtable_id": "recyby9ZDfADKSFkF",
+    "nome": "Multisoftware - MultiBus",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Descontinuar",
+    "is_produto_alvo": 0,
+    "torre_id": 5
+  },
+  {
+    "airtable_id": "reckfIYTihkgxIsLl",
+    "nome": "Praxio - Globus",
+    "quantidade_clientes": 506,
+    "classificacao_bcg": "Maduro",
+    "is_produto_alvo": 1,
+    "torre_id": 5
+  },
+  {
+    "airtable_id": "recT98wA6vENhtaG5",
+    "nome": "Praxio - Siga",
+    "quantidade_clientes": 188,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 5
+  },
+  {
+    "airtable_id": "rec6v7aDnvPKRxTJC",
+    "nome": "Praxio - Siga Emissor",
+    "quantidade_clientes": 83,
+    "classificacao_bcg": "MVP",
+    "is_produto_alvo": 1,
+    "torre_id": 5
+  },
+  {
+    "airtable_id": "recduxGTZaKBbLVY0",
+    "nome": "Praxio - Siga One",
+    "quantidade_clientes": 18,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 5
+  },
+  {
+    "airtable_id": "recHVQW7x8SLyUqEs",
+    "nome": "Nstech - Plataforma",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 0,
+    "torre_id": 7
+  },
+  {
+    "airtable_id": "rec2c9pvsXnx5ipvY",
+    "nome": "Bsoft - nsdocs",
+    "quantidade_clientes": 4781,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "reclmGreLWu6aWQxY",
+    "nome": "Datamex - Xml Protegido",
+    "quantidade_clientes": 904,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recPQv2oPQQwAlkjQ",
+    "nome": "Otimizy - Coleta XML",
+    "quantidade_clientes": 94,
+    "classificacao_bcg": "Descontinuado",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "rec7hsgo8hHAW2AgU",
+    "nome": "Bsoft - Controle Comercial",
+    "quantidade_clientes": 121,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recXLcfpmptycK3uw",
+    "nome": "Bsoft - NFe Prático",
+    "quantidade_clientes": 980,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recuPUt7eZ45JTulQ",
+    "nome": "Otimizy - ErpSoft Desktop",
+    "quantidade_clientes": 559,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 1,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recfgdpmu5zu3wwWc",
+    "nome": "Otimizy - Erpsoft One",
+    "quantidade_clientes": 304,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recmq52hPnWLkRECl",
+    "nome": "Atua - Mais CTe",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recAHKXGUekZPxCzc",
+    "nome": "Bsoft - CTe Prático",
+    "quantidade_clientes": 3871,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recuRzSiCE4N8L31T",
+    "nome": "Bsoft - MDFe Prático",
+    "quantidade_clientes": 94,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recWRIwIkUNcdCemm",
+    "nome": "Datamex - Emissor Simples",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recKkgzZy6ED9zP1G",
+    "nome": "Hivecloud - CTe",
+    "quantidade_clientes": 2851,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recDw6YOVBlvlP7Ke",
+    "nome": "Hivecloud - MDFe",
+    "quantidade_clientes": 4428,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recIdF0v99O4x3Qfg",
+    "nome": "Multisoftware - MultiCTe",
+    "quantidade_clientes": 3930,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recBkL2yvnNwFb9Xw",
+    "nome": "Otimizy - Muvly",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Descontinuado",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recOMRDWKiygJBfDc",
+    "nome": "Bsoft - Controle de Transportadoras",
+    "quantidade_clientes": 3348,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recom4UqLoAnEjLx9",
+    "nome": "Bsoft - One",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Descontinuado",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recQ64AflOOqV2mBD",
+    "nome": "Bsoft - TMS",
+    "quantidade_clientes": 3941,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "recQ7mMpcT14d1zTK",
+    "nome": "Datamex - TMS Nacional",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Descontinuado",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "rec3tIwb2GhjYaXwZ",
+    "nome": "Hivecloud - TMS",
+    "quantidade_clientes": 86,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 6
+  },
+  {
+    "airtable_id": "receKYPhODuZYZZKB",
+    "nome": "BRK - BRSystem (Cadastro)",
+    "quantidade_clientes": 961,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recdsR3nCkgW4Yqfa",
+    "nome": "BU VGR - Cadastro Unificado",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recqcPZuIoFURRyRx",
+    "nome": "Buonny - Buonny Check",
+    "quantidade_clientes": 11145,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recUvDN0ELBEcs9ZZ",
+    "nome": "Opentech - Cadastro ",
+    "quantidade_clientes": 2466,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recwW0O8j6NZENQdH",
+    "nome": "Pesquisa 4.0",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Maduro",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "reckCu2S4fAIhXTIS",
+    "nome": "BRK - BRLog",
+    "quantidade_clientes": 54,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recGkZPSOuXeWPiyB",
+    "nome": "Buonny - Buonny Log",
+    "quantidade_clientes": 232,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "rec7neF6xID6UgkSn",
+    "nome": "Opentech - SIL",
+    "quantidade_clientes": 366,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "rec9SpwWPzNcFSv5V",
+    "nome": "BRK - BRChecklist",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recbhWFsrV28i1t58",
+    "nome": "BRK - BRSystem (Gerenciamento de Risco)",
+    "quantidade_clientes": 805,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recPxeo3CR17Z8IKh",
+    "nome": "BU VGR - Zeus",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recFEm1U13EaD6OOg",
+    "nome": "Buonny - Buonny SAT",
+    "quantidade_clientes": 3229,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recCZeWZW3Wq7uqPK",
+    "nome": "Opentech - GR",
+    "quantidade_clientes": 712,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "reccMTc7whswdd2ep",
+    "nome": "BRK - BRSipa",
+    "quantidade_clientes": 22,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recKyW1H8rQlzm3A3",
+    "nome": "Buonny - Bsafe",
+    "quantidade_clientes": 3,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "reccyn9SEGGOtgCVu",
+    "nome": "Onisys - Plataforma de gestão da segurança",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Estabilização",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "rech4DFofyiZ6LtY9",
+    "nome": "Onisys - Torre de Prevenção de Acidentes",
+    "quantidade_clientes": 1,
+    "classificacao_bcg": "Estabilização",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "rec8ZfPsNRc1HhsQn",
+    "nome": "Opentech - PPA",
+    "quantidade_clientes": 11,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recswl8SAcaxqa0xc",
+    "nome": "Buonny - Buonny Tech",
+    "quantidade_clientes": 6,
+    "classificacao_bcg": "Dúvida",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recHiddCMbh7wuW4X",
+    "nome": "BU VGR - Rastrear",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recnAky07xuRsUZ4u",
+    "nome": "Trafegus - CAD 4.0",
+    "quantidade_clientes": 7,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recGjXRiTBQDxWeU0",
+    "nome": "Trafegus - Checklist",
+    "quantidade_clientes": 5,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "rec3BxIVLpHvNW6uS",
+    "nome": "Trafegus - Gestão de Riscos - Delphi",
+    "quantidade_clientes": 0,
+    "classificacao_bcg": "Migrar",
+    "is_produto_alvo": 0,
+    "torre_id": 8
+  },
+  {
+    "airtable_id": "recQePi3nmU8ycncH",
+    "nome": "Trafegus - Gestão de Riscos - Web",
+    "quantidade_clientes": 79,
+    "classificacao_bcg": "Growth",
+    "is_produto_alvo": 1,
+    "torre_id": 8
+  }
+]
