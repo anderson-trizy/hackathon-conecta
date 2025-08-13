@@ -10,9 +10,9 @@ from contextlib import asynccontextmanager
 import os
 from typing import Dict, Any
 
-from api.core.advanced_service import AdvancedRecommendationService
-from api.core.advanced_engine import AdvancedMLEngine
-from api.adapters.local.adapters import LocalDataSource, LocalStorage
+from core.advanced_service import AdvancedRecommendationService
+from core.advanced_engine import AdvancedMLEngine
+from adapters.local.adapters import LocalDataSource, LocalStorage
 
 
 # Variáveis globais para os serviços
@@ -30,12 +30,12 @@ async def lifespan(app: FastAPI):
     if cloud_provider == 'oracle':
         # TODO: Implementar OCI adapters
         print("Oracle adapters não implementados ainda, usando local")
-        data_source = LocalDataSource('./data/consolidated_datasource.json')
+        data_source = LocalDataSource('../data/datasources/consolidated_datasource.json')
         ml_engine = AdvancedMLEngine(data_source)
         storage = LocalStorage('./cache')
     else:
         # Usar adapters locais para desenvolvimento
-        data_source = LocalDataSource('./data/consolidated_datasource.json')
+        data_source = LocalDataSource('../data/datasources/consolidated_datasource.json')
         ml_engine = AdvancedMLEngine(data_source)
         storage = LocalStorage('./cache')
     

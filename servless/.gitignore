@@ -1,0 +1,27 @@
+# Temporary and debug files
+debug_*.py
+temp_*.py
+verificar_*.py
+relatorio_*.py
+analisar_*.py
+buscar_*.py
+
+# Temporary JSON files
+estrutura_*.json
+novo_*.json
+temp_*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files (keep main log but ignore temp logs)
+temp_*.log
+debug_*.log
+oci_upload.log
+complete_job_history.log
+
+# Backup files
+*.bak
+*.backup

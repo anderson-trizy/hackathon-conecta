@@ -31,7 +31,7 @@ def upload_to_oci():
     bucket_name = "nstech-recommendation-data"
     
     # Arquivo para upload
-    data_file = Path("../data/consolidated_datasource.json")
+    data_file = Path("../../data/datasources/consolidated_datasource.json")
     
     if not data_file.exists():
         print("❌ Arquivo consolidated_datasource.json não encontrado!")

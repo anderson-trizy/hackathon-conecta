@@ -1,0 +1,242 @@
+[
+  {
+    "nome": "Armazenamento de XML e Gestão de Documentos",
+    "torre_id": 6,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 5779
+  },
+  {
+    "nome": "Cadastro",
+    "torre_id": 8,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 14572
+  },
+  {
+    "nome": "DMS Atacadista/Distribuidor",
+    "torre_id": 1,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 780
+  },
+  {
+    "nome": "Datalake",
+    "torre_id": 7,
+    "classificacao": "Hub",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "ERP e Emissores para Varejo e Indústria",
+    "torre_id": 6,
+    "classificacao": "Core",
+    "quantidade_clientes": 1964
+  },
+  {
+    "nome": "Etiqueta de Frete",
+    "torre_id": 1,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "Gestão de Combusítvel",
+    "torre_id": 2,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "Gestão de Entregas",
+    "torre_id": 1,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 306
+  },
+  {
+    "nome": "Gestão de Passagens Rodoviárias",
+    "torre_id": 5,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 83
+  },
+  {
+    "nome": "Gestão e Visibilidade Logística",
+    "torre_id": 8,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 652
+  },
+  {
+    "nome": "Hub de Agendamento",
+    "torre_id": 1,
+    "classificacao": "Hub",
+    "quantidade_clientes": 3
+  },
+  {
+    "nome": "Hub de Oferta de Cargas",
+    "torre_id": 1,
+    "classificacao": "Hub",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "Jornada de Trabalho",
+    "torre_id": 4,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 15
+  },
+  {
+    "nome": "Marketplace / e-procurement",
+    "torre_id": 4,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 796
+  },
+  {
+    "nome": "Monitoramento",
+    "torre_id": 8,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 4746
+  },
+  {
+    "nome": "PEF - Pagamento Eletrônico de Frete",
+    "torre_id": 2,
+    "classificacao": "Hub",
+    "quantidade_clientes": 2270
+  },
+  {
+    "nome": "Plataforma",
+    "torre_id": 7,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "Prevenção de Acidentes",
+    "torre_id": 8,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 37
+  },
+  {
+    "nome": "Rastreamento e Telemetria",
+    "torre_id": 8,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 6
+  },
+  {
+    "nome": "Roteirizador",
+    "torre_id": 1,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "Serviços Financeiros",
+    "torre_id": 2,
+    "classificacao": "Hub",
+    "quantidade_clientes": 9
+  },
+  {
+    "nome": "Software de Gestão de Risco",
+    "torre_id": 8,
+    "classificacao": "Core",
+    "quantidade_clientes": 91
+  },
+  {
+    "nome": "Softwares para Corretoras",
+    "torre_id": 3,
+    "classificacao": "Hub",
+    "quantidade_clientes": 16
+  },
+  {
+    "nome": "Softwares para Resseguros",
+    "torre_id": 3,
+    "classificacao": "Hub",
+    "quantidade_clientes": 13
+  },
+  {
+    "nome": "Softwares para Seguradoras",
+    "torre_id": 3,
+    "classificacao": "Hub",
+    "quantidade_clientes": 46
+  },
+  {
+    "nome": "Soluções de Pedágio",
+    "torre_id": 1,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 350
+  },
+  {
+    "nome": "Super App",
+    "torre_id": 1,
+    "classificacao": "Core",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "TMS Cabotagem",
+    "torre_id": 4,
+    "classificacao": "Core",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "TMS Embarcador",
+    "torre_id": 1,
+    "classificacao": "Core",
+    "quantidade_clientes": 136
+  },
+  {
+    "nome": "TMS Embarcador e-commerce",
+    "torre_id": 1,
+    "classificacao": "Core",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "TMS Passageiros Micro e Pequeno",
+    "torre_id": 5,
+    "classificacao": "Core",
+    "quantidade_clientes": 270
+  },
+  {
+    "nome": "TMS Passageiros Médio e Grande",
+    "torre_id": 5,
+    "classificacao": "Core",
+    "quantidade_clientes": 506
+  },
+  {
+    "nome": "TMS Transportador FTL Agro",
+    "torre_id": 4,
+    "classificacao": "Core",
+    "quantidade_clientes": 1434
+  },
+  {
+    "nome": "TMS Transportador FTL Micro",
+    "torre_id": 6,
+    "classificacao": "Core",
+    "quantidade_clientes": 15174
+  },
+  {
+    "nome": "TMS Transportador FTL Médio/Grande",
+    "torre_id": 4,
+    "classificacao": "Core",
+    "quantidade_clientes": 328
+  },
+  {
+    "nome": "TMS Transportador FTL Pequeno",
+    "torre_id": 6,
+    "classificacao": "Core",
+    "quantidade_clientes": 7375
+  },
+  {
+    "nome": "Torre de Controle",
+    "torre_id": 1,
+    "classificacao": "Core",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "Torre de Controle PSL",
+    "torre_id": 4,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 0
+  },
+  {
+    "nome": "WMS e Gestão de Terminais",
+    "torre_id": 1,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 50
+  },
+  {
+    "nome": "YMS",
+    "torre_id": 1,
+    "classificacao": "Especialista",
+    "quantidade_clientes": 230
+  }
+]
