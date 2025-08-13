@@ -1,7 +1,11 @@
-import { RecommendationResponse, ManualRecommendationResponse } from "../types/recommendation";
+import {
+	ManualRecommendationResponse,
+	RecommendationResponse,
+} from "../types/recommendation";
 
 const API_BASE_URL = "http://127.0.0.1:8000";
-const ORACLE_APEX_BASE_URL = "https://g57a5a6c122b36a-hackathonconecta.adb.us-chicago-1.oraclecloudapps.com/ords/hackathonconecta";
+const ORACLE_APEX_BASE_URL =
+	"https://g57a5a6c122b36a-hackathonconecta.adb.us-chicago-1.oraclecloudapps.com/ords/hackathonconecta";
 
 export class RecommendationService {
 	static async getRecommendations(
@@ -25,7 +29,9 @@ export class RecommendationService {
 		}
 	}
 
-	static async getManualRecommendations(clientId: string): Promise<ManualRecommendationResponse> {
+	static async getManualRecommendations(
+		clientId: string
+	): Promise<ManualRecommendationResponse> {
 		try {
 			const response = await fetch(
 				`${ORACLE_APEX_BASE_URL}/clients/${clientId}/recommendations/manual`
